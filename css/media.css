@@ -1,0 +1,1764 @@
+
+
+@media only screen and (max-device-width: 1324px)  {
+  
+    /* For table */
+  .page-wrap table, thead, tbody, th, td, tr { 
+      display: block; 
+
+    }
+    
+  
+  .page-wrap thead tr { 
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    
+  .page-wrap tr { border: 1px solid #ccc; }
+    
+  .page-wrap td { 
+      border: none;
+      border-bottom: 1px solid #eee; 
+      position: relative;
+      padding-left: 50%; 
+    }
+    
+  .page-wrap td:before { 
+      position: absolute;
+      top: 11px;
+      left: 6px;
+      width: 45%; 
+      padding-right: 10px; 
+      white-space: nowrap;
+    }
+
+    .row.delivery_table.dlr {
+    margin-bottom: 90px;
+		}
+
+		 .delivery_city {
+			margin-top: -22px;
+		}
+
+		.page-wrap table {
+    margin-bottom: 40px;
+		}
+		.page-wrap .delivery_express img {
+    width: 120px;
+	}
+
+	.delivery_pay img:first-child {
+    margin-left: 345px;
+}
+
+.courier {
+	margin-left: 0;
+}
+     
+  .page-wrap td:nth-of-type(1):before { content: "Служба"; top:22px; }
+  .page-wrap td:nth-of-type(2):before { content: "Срок доставки"; }
+  .page-wrap td:nth-of-type(3):before { content: "Время доставки"; }
+  .page-wrap td:nth-of-type(4):before { content: "Срок хранения"; }
+  .page-wrap td:nth-of-type(5):before { content: "Форма оплаты"; top:22px; }
+  /* End styles for table */
+  
+		/*kartochka*/
+  .kartochka_descr .buy_but {
+		width: 140px;
+    font-size: 16px;
+    padding-left: 3px;
+    padding-top: 12px;
+    background-position: 7% 75%;
+	}
+
+	.buy__credit a {
+	    font-size: 12px;
+	}
+
+}
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.logo img {
+		max-width: 80%;
+	}
+	.footer__social img {
+		width: 30px;
+	}
+		/*Home page*/
+	.slider__descr {
+    width: 45%;
+  }
+  .slider__descr h2 {
+    font-size: 26px;
+  }
+  .left-menu h3 {
+  	font-size: 16px;
+  	padding-top: 3px;
+  }
+  .left-menu__title {
+     padding-left: 65px;
+	}
+
+ 	.our-services.main_page .our-services__left p,
+  .our-services.main_page .our-services__right p {
+    	padding-right: 20px;
+    }
+	.our-services.main_page p {
+    	font-size: 14px;
+    }
+
+.our-services.main_page .our-services__item {
+	margin-bottom: 15px;
+}
+
+.bx-viewport {
+	height: 200px !important;
+}
+
+/*zakazat_uslugu*/
+  .c_input {
+    width: 53%;
+    margin-top: 15px;
+  }
+  .mark_stars {
+  	left: 38%;
+  }
+
+   .contact .contact_form p {
+    margin-bottom: 10px;
+	}
+
+/*inet_magazin*/
+	.our-tovar__link.popular {
+    font-size: 12px;
+   }
+	.popular .buy_but {
+    width: 76px;
+    font-size: 13px;
+    padding-top: 7px;
+    background-size: 23%;
+   }
+   .popular .buy_but a {
+     padding-left: 27px;
+	}
+	.popular_descr p {
+    font-size: 10px;
+  }
+  .popular_descr .grey_desrc .popular_price {
+    font-size: 15px;
+	}
+	.left-menu__item p {
+	    padding-top: 9px;
+	    font-size: 13px;
+	}
+	.left-menu__item li > a {
+	  padding-left: 10px;
+	 }
+
+	.left-menu__img.bot {
+    left: 13px;
+	}
+	.left-menu__title.katalog {
+	   padding-left: 40px;
+	}
+	.item-title {
+    font-size: 31px;
+  }
+
+
+	/*kabinet*/
+  .line_info .kabinet_bold {
+   		font-size: 16px;
+  }
+
+	/*kartochka*/
+	.katalog .tabs .tovar__content {
+	  width: 340px;
+	  height: 250px;
+	  margin-left: 17px;
+	  margin-top: 10px;
+	  background-size: 90%;
+	 }
+  .katalog .content_img_small div {
+    width: 50px;
+    height: 50px;
+	 }
+	.katalog .tabs__caption_2 li {
+    padding: 10px 4px 10px 5px;
+   }
+	.kartochka__price .old_price {
+	  font-size: 21px;
+	}
+	.kartochka__price .old_price:after {
+    width: 80px;
+   }
+  .kartochka__price .new_price {
+    font-size: 25px;
+   }
+
+  .kartochka_descr .spin input {
+    width: 50px;
+   }
+
+ .kartochka_descr .buy_but {
+		width: 120px;
+    font-size: 13px;
+    padding-left: 1px;
+    padding-top: 14px;
+    background-position: 8% 75%
+	}
+
+	.buy__credit a {
+	    font-size: 12px;
+	}
+
+	.buy__credit img {
+    max-width: 23%;
+    padding-right: 5px;
+	}
+
+	/*katalog*/
+	.appear {
+		display: none;
+	}
+	.katalog__list:before {
+    margin-top: -41px;
+    margin-bottom: 50px;
+	}
+
+	
+	.sliderCont #slider {
+    width: 150px;
+	}
+
+	.filter .formCost input {
+		width: 50px;
+	}
+	.search_button_filter {
+    width: 65px;
+  }
+  input[type="checkbox"]:not(:checked) + label, input[type="checkbox"]:checked + label {
+    padding-left: 20px;
+	}
+	input[type="radio"]:not(:checked) +label, input[type="checkbox"]:not(:checked) +label {
+    font-size: 11px;
+	}
+	.katalog_mobile .left-menu__item .amount	{
+		font-size: 11px;
+		padding-left: 2px;
+	}
+
+
+	/*stat*/
+
+	.col-lg-4.stat.mob {
+		width: 100%;
+	}
+	.col-lg-4.stat::after {
+		display: none;
+	}
+	.stat__img {
+    width: 360px;
+    height: 160px;
+  }
+
+	.stat.mob {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    border-bottom: 1px solid #dcdcdc;
+	}
+
+	.stat.mob p {
+    width: 360px;
+	}
+
+}
+
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+ /*contacs*/
+ .contacs__title {
+	white-space: normal;
+	}
+ .kabinet_info.contacs .personal_inf.name {
+    padding-bottom: 0; 
+	}
+	.kabinet_info .contacs_mail {
+    padding-bottom: 0;
+	}
+	.kabinet_info.contacs .line_info.im {
+    margin-bottom: 30px; 
+	}
+	.kabinet_info:after {
+    display: none;
+  }
+  .contacs_row {
+  	margin-top: -30px;
+  }
+  .col-lg-12.line_info:after {
+	content: "";
+  display: block;
+  position: absolute;
+  left: -15px;
+  bottom: -10px;
+  width: 100%;
+  height: 1px;
+  background: #DCDCDC;
+ 	}
+
+	.col-lg-6.separate:after {
+		display: none;
+	}
+	.kabinet_info .contacs_mail {
+    padding-left: 0px;
+	}
+	.kabinet_info .personal_inf.pad.contacs {
+		padding-left: 0;
+		margin-left: -6px;
+  }
+  .br_pad {
+  	display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.currency {
+		display: none;
+	}
+	.logo img {
+		max-width: 60%;
+	}
+	.paypal {
+		display: none;
+	}
+.footer__copyright {
+    margin-left: 15px;
+	}
+	.footer__tel a {
+		font-size: 12px;
+	}
+	.footer__social img {
+    width: 20px;
+	}
+		/*Home page*/
+	.slider__descr {
+    width: 40%;
+  }
+  .slider__descr h2 {
+    font-size: 22px;
+  }
+  .slider__descr p {
+  	margin-left: 10px;
+  	font-size: 14px;
+    line-height: 1.1;
+  }
+
+	.mobile_hid {
+		display: none;
+	}
+
+
+/*zakazat_uslugu*/
+  .left-menu {
+    width: 77%;
+	}
+	.col-md-7.contact {
+    padding-left: 0px;
+	}
+	.contact h4 {
+    margin-top: 20px;
+	}
+	.u_input {
+    width: 72%;
+  }
+  .u_submit {
+    position: static;
+    display: block;
+  }
+  .uslugu_form {
+    height: 370px;
+  }
+  .mark p {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .col-md-7.contact.marking {
+  	height: 190px;
+  }
+  .mark_stars {
+    top: 115px;
+    left: 137px;
+	}
+
+	/*	dostavka*/
+	.courier {
+		margin-right: 9%;
+	}
+	.left-menu h3 {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .left-menu__title {
+    padding-left: 22px;
+  }
+  .left-menu__img {
+  	display: none;
+  }
+
+  /*oplata*/
+	
+   .delivery_table.oplata p {
+    font-size: 18px;
+	}
+
+	.delivery_table.oplata .visa_pay p {
+    margin-left: -10px;
+	}
+
+	.oplata .cash_pay {
+    margin-right: 7%;
+
+	}
+
+	.delivery_description.pay_descr:before {
+	   margin-left: 40px;
+	}
+
+	/*inet_magazin*/
+	.left-menu__title.katalog {
+	    padding-left: 12px;
+	}
+	.left-menu.full {
+		width: 100%;
+	}
+
+	/*kabinet*/
+	.left-menu.kabinet {
+		width: 100%;
+	}
+
+	/*katalog*/
+	.buy_but.katalog {
+    margin-left: 40px;
+  }
+  .block-bottom.katalog {
+    padding-left: 40px;
+	}
+
+	.left-menu__item p {
+	  font-size: 12px;
+	}
+
+	.katalog_mobile .left-menu__item p {
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: none;
+	}
+	.katalog_mobile .left-menu {
+    padding-right: 8px;
+  }
+
+	.katalog_mobile .uncover:after {
+	    top: 4px;
+	    right: 6px;
+	    font-size: 23px;
+	    font-weight: bold;
+	 }
+	.katalog_mobile .left-menu__title.katalog {
+    padding-left: 16px;
+	}
+	.filter .formCost input {
+		width: 45px;
+	}
+	.search_button_filter {
+    width: 48px;
+  }
+
+			/*stat*/
+  .left-menu.stat {
+  	display: none;
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+	.search__submit {
+	    right: 15%;
+	}
+	.search__input {
+    width: 280px;
+  }
+  
+  .company-info__mail {
+    margin-top: 10px;
+	}
+	.nav__menu a, .footer__menu ul a {
+		font-size: 14px;
+		padding: 0 15px;
+	}
+
+		/*kabinet*/
+	.kabinet_info:after {
+		display: none;
+	}
+	/*inet_magazin*/
+	
+	.inet_mag {
+		display: none;
+	}
+	.left-menu.full {
+		display: block;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+/*kabinet*/
+	.left-menu.kabinet {
+		width: 77%;
+	}
+
+	.kabinet_edit {
+		padding-left: 32px;
+	}
+	.kabinet_info .line_info {
+		margin-bottom: 15px;
+	}
+	.kabinet.item-title {
+    font-size: 22px;
+    padding-top: 20px;
+	}
+
+	.kabinet_info .personal_inf.pad {
+	    padding-left: 2px;
+	}
+
+	.kabinet_info.after:after {
+    display: none;
+	}
+	.left-menu.full.kart_none {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.logo img {
+    margin-bottom: 10px;
+	}
+
+	.basket__title,
+	.basket__total, 
+  .basket__price,
+  .social {
+   	display: none;
+  }	
+
+  .basket__link {
+   	 left: 40px;
+     top: -15px;
+  }
+  .basket__content {
+    padding-right: 35px;
+    padding-left: 0;
+    padding-top: 60px;
+	} 			
+	.search__submit {
+    
+	}		
+	.company-info__mail {
+    padding-top: 10px;
+	}		
+	.menu_cont {
+		margin-left: 20px;
+	}
+
+  .nav__menu a, .footer__menu ul a {
+		font-size: 13px;
+		padding: 0 10px;
+	}
+
+	.footer__info {
+    padding-top: 25px;
+   }
+		
+	.footer__contact,
+	.tel-hid{
+		display: none;
+	}
+	.post-mobile {
+    display: block;
+  }
+
+  	/*Home page*/
+	.slider__descr {
+    width: 38%;
+  }
+  .slider__descr h2 {
+    font-size: 19px;
+  }
+  .slider__descr p {
+  	margin-left: 28px;
+  	font-size: 14px;
+    
+  }
+
+  /*dostavka*/
+  .courier {
+    margin-right: 5%;
+    margin-left: 11%;
+	}
+	.delivery_description.dlr {
+		padding-left: 20px;
+	}
+	.courier {
+    margin-left: 3%;
+	}
+
+	.delivery_description:before {
+	       margin-left: 70px;
+	}
+
+	/*kartochka*/
+	
+
+	.katalog .kartochka_descr h3 {
+    font-size: 22px;
+	}
+	.kartochka__price .old_price {
+    font-size: 18px;
+	}
+	.kartochka__price .old_price:after {
+    top: 8px;
+    width: 68px;
+  }
+	.kartochka__price .new_price {
+	    font-size: 23px;
+	}
+	.kartochka_table {
+		margin-left: -12px;
+	}
+	.tovar_dep {
+		padding-right: 20px;
+	}
+	.item-title.katalog.kartochka_tov {
+		font-size: 26px;
+	}
+	.tech_descr p {
+		font-size: 13px;
+	}
+	/*sotrudniki*/
+	.stuff_table .pers_name {
+		margin-right: 0;
+	  margin-bottom: 30px;
+	}
+}
+   @media only screen and (max-width : 767px) {
+	
+	/*katalog*/
+	.katalog_mobile .left-menu,
+	.katalog_mobile .sidebar {
+    display: none;
+	}
+
+	.block-bottom.katalog {
+    padding-left: 40px;
+	}
+
+	.plitka .descr_line {
+    width: 355px;
+    font-size: 12px;
+	}
+	.katalog__list.plitka .katalog__img {
+		position: absolute;
+		left: 3%;
+	}
+	.our-tovar__link.popular.katalog {
+	  margin-left: 210px;
+	}
+	.katalog_descr {
+    margin-left: 210px;
+	}
+	.katalog .popular_price {
+		margin-left: 210px;
+		margin-bottom: 20px; 
+	}
+
+	.katalog__list.plitka .col-lg-3.katalog {
+		padding-top: 10px;
+	}
+
+	.katalog__list.plitka .col-lg-3.katalog:after {
+		content: "";
+    display: block;
+    height: 1px;
+    background: #DCDCDC;
+    margin-left: -30px;
+    margin-right: -30px;
+    box-shadow:none;
+    width: 106%;
+	}
+
+	.buy_but.katalog {
+    margin-left: 170px;
+	}	
+
+}
+
+
+
+
+@media only screen and (max-width : 720px) {
+	.search__submit {
+    right: 12%;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width : 693px) {
+
+	.back__btn {
+		display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    background: url(../img/back.png) 50% 50% no-repeat;
+    width: 35px;
+    height: 35px;
+ }
+
+	.header-block__content .basket {
+		display: none;
+	}
+
+ 	.header-block.mobile {
+		display: none;
+ 	}
+	.content .center-content {
+    padding-top: 0;
+	}
+	.col-md-3 {
+	min-height: 0;
+	}
+  .search_toggle {
+	 	display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    right: 20%;
+    top: 0px;
+    background: url(../img/search_black.png) 50% 50% no-repeat;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+	.item-title.black_crumb  {
+		font-size: 16px;
+		color: #fff;
+		background: #2B2A29;
+		height: 40px;
+		text-align: center;
+		padding-top: 12px;
+	}
+	.container.clearfix.mobile {
+		padding: 0;
+	}
+	.center-content {
+		padding-left: 0;
+	}
+
+	.item-title:after {
+    width: 100%;
+    height: 5px;
+    margin-top: 12px;
+  }
+	.search__submit {
+  	right: 7%;
+	}
+	.top-panel__content,
+	.logo img,
+	.company-info,
+	.basket__title,
+	.basket__total,
+	.basket__price,
+	.profile-link,
+	.nav, 
+	.footer__menu,
+	.left-menu,
+	.breadcrumbs
+	{
+		display: none;
+	}
+	.basket__link.mobile {
+		display: inline-block;
+		left: 83%;
+		top: -2px;
+	  background-size:75%;
+	  height: 40px
+	}
+	.search {
+	  width: 280px;
+	  height: 63px;
+	  margin: auto; 
+	}
+	.search__input {
+   	margin-top: 10px;
+	}
+
+	.bottom-panel {
+		display: block;
+	}
+ .equipment {
+		width: 40px;
+	}
+
+					/*Home page*/
+	.slider__title {
+    text-decoration: none;
+    line-height: 1.2;
+   
+	}
+	.slider .block-vertical {
+		vertical-align: top;
+    text-align: center;
+}
+	.slider__descr {
+    width: 100%;
+  }
+  .slider__descr p {
+    display: none; }
+
+  .slider__descr h2 {
+		margin-top: 5px;
+   }
+  .slider__item {
+   background-position: 24%;
+	}
+	.our-tovar.main_page,
+	.item-title.main_page,
+	.about.main_page {
+		display: none;
+	}
+
+	.item-title.uslugi_mob {
+		margin-top: 35px;
+		margin-bottom: 15px;
+		padding-left: 20px;
+		font-size: 16px;
+	}
+
+	.our-services__left,
+	.our-services__right {
+    float: none; 
+    width: 100%;
+    padding-left: 20px;
+
+}
+
+	.our-services.main_page  .our-services__item p {
+		margin-bottom: 12px;
+		font-weight: bold;
+	}
+
+
+	.item-title.uslugi_mob:after {
+		width: 100px;
+		height: 3px;
+		margin-top: 7px;
+	}
+
+	.mob_katalog {
+		display: block;
+	}
+	.container.clearfix.main_page {
+		padding: 0;
+	}
+
+	.mob_katalog .left-menu__item li > a {
+    padding-left: 20px;
+   }
+
+   .mob_katalog .uncover:after {
+     right: 30px;
+    }
+
+
+
+	/*zakazat_uslugu*/
+
+  .col-md-12.uslugu {
+    padding-left: 26px;
+  }
+  
+
+	.contact .contact_form p:first-child {
+		padding-left: 0;
+	}
+	.contact h4 {
+    margin-top: 15px;
+	}
+	.uslugu h3 {
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	.uslugu p {
+    padding-right: 20px;
+	}
+	.uslugu p i {
+    color: #000;
+	}
+	.col-md-7.contact.marking {
+    height: 170px;
+	}
+	.c_input {
+    width: 52%;
+    margin-top: 15px;
+    font-size: 13px;
+	}
+
+/*contacs*/
+.kabinet_info:before { 
+	display: none;
+ }
+ .contacs__title {
+    padding-bottom: 0px;
+    line-height: 1.5;		
+  }
+ .kabinet_info.contacs .personal_inf {
+ 	font-size: 14px;
+ }
+ .download.mobile {
+  display: block;
+	}
+
+/*	dostavka*/
+	.delivery_description:before {
+	   display: none;
+	}
+	.page-wrap table {
+    width: 70%;
+    margin-left: 15%;
+	}
+	.delivery_city {
+    margin-left: 15%;
+	}
+	.tabs__caption .col-md-3,
+	.tabs__caption .col-md-2,
+	.tabs__caption_2 .col-md-3, 
+	.tabs__caption_2 .col-md-2 {
+		margin-left: 8%;
+    margin-right: -3%;
+	}
+	.delivery_pay img:first-child {
+    margin-left: 200px;
+	}
+	.delivery_table p {
+		font-size: 18px;
+	}
+	.delivery_table .post p {
+    margin-left: -10px;
+	}
+
+/*	oplata*/
+	 .pay_methods {
+    padding-left: 46px;
+	}
+	.oplata.tabs__content,
+	.oplata.tabs__content_2 {
+    padding-left: 58px;
+	}
+	.oplata .tabs__caption .col-md-3,
+	.oplata .tabs__caption .col-md-2, 
+	.oplata .tabs__caption_2 .col-md-3, 
+	.oplata .tabs__caption_2 .col-md-2 {
+    margin-left: 10%;
+    margin-right: -5%;
+	}	
+.delivery_description.pay_descr{
+	    padding-left: 53px;
+	}
+	.delivery_table.oplata p {
+    font-size: 16px;
+	}
+
+	.oplata	.delivery_pic.pay_title,  
+	.oplata .active .delivery_pic.pay_title {
+    background-size: 70%;
+	}
+	.delivery_table.oplata p {
+    margin-top: 100px;
+	}
+	.delivery_table.oplata .visa_pay p {
+    margin-left: -22px;
+	}
+	.delivery_table.oplata .card_pay p {
+	    margin-left: -30px;
+	}
+	.delivery_table.oplata .cash_pay p {
+		    margin-left: -35px;
+		}
+	.pay_methods {
+    font-size: 20px;
+    }
+
+	.pay_tab {
+     margin-top: 0px;
+    }
+
+	/*inet_magazin*/
+	.mobile_crumb {
+	  display: block;
+
+	}
+
+	.back__btn.mobile_crumb {
+		top: 41px;
+	}
+
+	.left-menu__title.katalog.inmag {
+		display: none;
+	}
+	.left-menu.full {
+     padding-top: 0px;
+     padding-right: 0;
+     padding-bottom: 60px;
+	}
+	.item-title.katalog.mobile_crumb {
+		margin-bottom: 5px;
+	}
+
+		/*kabinet*/
+	.kabinet_mob {
+		margin-top: 50px;
+		margin-bottom: 60px;
+	}
+
+	/*kartochka*/
+	.item-title.katalog.kartochka_tov {
+		font-size: 18px;
+		text-decoration: underline;
+		color: #2f8dc6;
+		min-height: 60px;
+		margin-bottom: 0;
+		text-align: center;
+		padding-top: 14px;
+   
+	}
+	.item-title.katalog.kartochka_tov:after {
+		display: none;
+	}
+
+	.kartochka:before {
+	    margin-top: -11px;
+	    margin-left: -15px;
+	    margin-bottom: 25px;
+	    margin-right: -15px;
+	}
+
+	.tabs__caption.kart,
+	.katalog .kartochka_title,
+	.kartochka__price .old_price,
+	.kartochka_descr .quan,
+	.kartochka_descr .buy__credit,
+	.stock {
+		display: none;
+	}
+
+	.kart_block {
+		width: 100%;
+	}
+
+	.katalog .tabs .tovar__content.img_1 {
+		margin: auto;
+	}
+	
+	.kartochka_descr {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.kartochka_descr .links,
+	.price_bask {
+	    margin-top: 5px;
+	    width: 420px;
+	    margin-left: 29%;
+	}
+
+	.buy_bask {
+		padding-left: 26px;
+	}
+
+	.kartochka_descr .avail {
+    position: absolute;
+    top: 60px;
+    left: -55px;
+	}
+	.kartochka__price .new_price {
+    margin-top: 15px;
+	}
+	.katalog .tabs__content_2 {
+    padding-left: 20px;	
+    padding-right: 20px;
+	}
+
+	.katalog .tabs__caption_2 p {
+		font-size: 14px;
+	}
+
+	.katalog .tabs__caption_2 li {
+		border-bottom: none;
+		display: block;
+		width: 100%;
+		margin: 0;
+		color: #2B2A29;
+		font-weight: bold;
+		padding-left: 20px;
+		position: relative;
+	}
+	.katalog .tabs__caption_2 li.active {
+		border: 1px solid #FFCF25;
+		background-color: #FFCF25;
+	}
+	.katalog .tabs__caption_2 li:last-child {
+		border-bottom: 1px solid #DCDCDC;
+	}
+	
+
+	.katalog .tabs__caption_2 li:after {
+		content: "›";
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #B1B1B1;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+	}
+	.katalog .tabs__caption_2 li.active:after {
+	  top: 2px;
+	  color: #000;
+	  -webkit-transform: rotate(90deg);
+	  -moz-transform: rotate(90deg);
+	  -o-transform: rotate(90deg);
+	  -ms-transform: rotate(90deg);
+	  transform: rotate(90deg);
+	  -webkit-transition: all 0.5s;
+	  transition: all 0.5s;
+	}
+	.col-md-9.katalog {
+	    padding-right: 15px;
+	}
+	.katalog .tabs__content_2 h4 {
+    font-size: 18px;
+  }
+
+ 				 				 
+ 	.katalog_hid {
+ 		display: none;
+ 	}
+	.our-tovar .sort {
+		display: none;
+	}
+
+	.katalog__list.clearfix.plitka:before {
+		display: none;
+	}
+
+	.sort_head {
+	  display: block;
+	  height: 40px;
+	  padding-top: 12px;
+	  border-bottom: 1px solid #DCDCDC;
+	  margin-bottom: 20px;
+	}
+
+	.sort_text {
+		padding-left: 17%;
+		color: #939393;
+	}
+
+	.sort_text.active {
+		color: #000;
+	}
+
+		/*sotrudniki*/
+	.stuff_table.first:before {
+		display: none;
+	}
+	.stuff_table .pers_name {
+    margin-top: 40px;
+	}
+	.download.mobile.stuff {
+		margin-left: 35%;
+	}
+
+	.stat__list:before {
+		display: none;
+	}
+
+	.item-title.stat {
+		margin-bottom: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 620px) {
+	/*oplata*/
+	.oplata .tabs__caption .col-md-3, 
+	.oplata .tabs__caption .col-md-2, 
+	.oplata .tabs__caption_2 .col-md-3, 
+	.oplata .tabs__caption_2 .col-md-2 {
+    margin-left: 13%;
+    margin-right: -9%;
+	}
+	.delivery_table.oplata p {
+    font-size: 13px;
+	}
+	.delivery_table.oplata .inst_pay p {
+		    margin-left: -35px;
+		}
+	.delivery_table.oplata .visa_pay p {
+    margin-left: -52px;
+	}
+	.delivery_table.oplata .card_pay_2 p {
+    margin-left: -61px;
+	}
+	.delivery_table.oplata .ppl_pay p {
+    margin-left: -61px;
+	}
+	.delivery_table.oplata .card_pay p {
+	    margin-left: -34px;
+	}
+	.row.delivery_table.oplata {
+    margin-bottom: 0px;
+	}
+
+
+	/*kartochka*/
+	.kartochka_descr .links, .price_bask {
+    width: 320px;
+  }
+  .katalog .tabs__content_2 h4 {
+    font-size: 16px;
+  }
+
+	/*katalog*/
+
+	.our-tovar__link.popular.katalog {
+    display: block;
+    width: 280px;
+    line-height: 1.4;
+	}
+	.plitka .descr_line {
+    width: 280px;
+	}
+	.buy_but.katalog {
+	    margin-left: 95px;
+	}
+	.katalog_descr .descr_line p {
+		margin-top: 0;
+	}
+
+}
+
+
+
+
+
+@media only screen and (max-width : 539px) {
+	.contact_form form {
+		width: 80%;
+	}
+
+	.oplata	.delivery_pic.pay_title, 
+	.oplata .active .delivery_pic.pay_title {
+    background-size: 50%;
+	}
+	.oplata .tabs__caption .col-md-3, 
+	.oplata .tabs__caption .col-md-2, 
+	.oplata .tabs__caption_2 .col-md-3, 
+	.oplata .tabs__caption_2 .col-md-2 {
+    margin-left: 16%;
+    margin-right: -14%;
+	}
+
+		.delivery_table.oplata p {
+	    margin-top: 86px;
+	}
+		.delivery_table.oplata .cash_pay p {
+	    margin-left: -58px;
+	}
+	.delivery_table.oplata .card_pay p {
+	    margin-left: -54px;
+	}
+
+	/*kartochka*/
+		.kartochka_descr .links, .price_bask {
+     margin-left: 25%;
+     width: 300px;
+	}
+
+	.item-title.katalog.kartochka_tov {
+    font-size: 15px;
+  }
+
+	/*katalog*/
+	.sort_text {
+    padding-left: 15%;
+   }
+
+  .katalog__img {
+    width: 150px;
+    height: 140px;
+   }
+
+	.katalog_descr .descr_line p {
+		margin-top: 0;
+	}
+	.block-bottom.katalog {
+    padding-left: 0px;
+	}
+	.plitka .descr_line {
+    width: 210px;
+	}
+
+	.buy_but.katalog {
+    margin-left: 75px;
+	}
+	.our-tovar__link.popular.katalog {
+    width: 210px;
+  }
+  .katalog__list.plitka .katalog__img {
+    left: 5%;
+	}
+	.buy_but.katalog {
+    margin-left: 25px;
+	}
+	.sort_text {
+    padding-left: 10%;
+	}
+	.download.mobile.stuff {
+			margin-left: 30%;
+	}
+}
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.search__submit {
+	  right: 4%;
+	}
+	.bottom__menu a {
+   	margin: 0 15px; 
+  }
+
+	/*Home page*/
+	.slider__item {
+    background-position: 25%;
+    height: 200px;
+	}
+
+	.slider__descr h2 {
+    font-size: 14px;
+    line-height: 1.1;
+    margin-top: 4px;
+	}
+
+	.col-md-7.contact.marking {
+    height: 190px;
+	}
+	.mark_stars {
+    top: 148px;
+  }
+  .c_input {
+    font-size: 11px;
+	}
+	.contact_form form {
+    width: 90%;
+	}
+	.c_submit {
+		font-size: 12px;
+	}
+
+/*	dostavka*/
+
+	.delivery_pay img:first-child {
+    margin-left: 150px;
+	}
+	.delivery_description p {
+    line-height: 1.4;
+	}
+	.delivery_pay img {
+    width: 50px;
+	}
+	.page-wrap td:nth-of-type(5):before {
+    top: 15px;
+	}
+	.delivery_table p {
+    font-size: 16px;
+	}
+	.tabs .delivery_table.dlr .delivery_pic,
+	.tabs .delivery_table.dlr .active .delivery_pic {
+    background-size: 70%;
+	}
+	.delivery_table p {
+		margin-top: 100px;
+	}
+	.row.delivery_table {
+    margin-bottom: 20px;
+	}
+	.delivery_table .post p {
+    margin-left: -30px;
+	}
+	.delivery_table .courier p {
+    margin-left: -30px;
+	}
+	.delivery_table .brought p {
+    margin-left: -25px;
+	}
+	.tabs__caption .col-md-3,
+	.tabs__caption .col-md-2, 
+	.tabs__caption_2 .col-md-3, 
+	.tabs__caption_2 .col-md-2 {
+    margin-left: 10%;
+    }
+
+	/*oplata*/
+	.row.delivery_table.oplata {
+	    margin-bottom: 0px;
+	    padding-left: 20px;
+	}
+	.delivery_table.oplata p {
+	    font-size: 11px;
+	}
+	.delivery_table.oplata .inst_pay p {
+    margin-left: -57px;
+	}
+	.delivery_table.oplata .card_pay p {
+    margin-left: -59px;
+	}
+	.delivery_table.oplata .ppl_pay p {
+    margin-left: -65px;
+	}
+	.pay_methods {
+    font-size: 17px;
+	}
+	.methods {
+    font-size: 17px;
+  }
+  .pay_methods {
+    padding-left: 55px;
+	}
+	.delivery_description.pay_descr {
+	    padding-left: 45px;
+	}
+	.oplata.tabs__content, .oplata.tabs__content_2 {
+	    padding-left: 38px;
+	}
+	.pay_methods {
+	    padding-left: 40px;
+	}
+	.oplata .tabs__caption .col-md-3, .oplata .tabs__caption .col-md-2, .oplata .tabs__caption_2 .col-md-3, .oplata .tabs__caption_2 .col-md-2 {
+	    margin-left: 16%;
+	    margin-right: -10%;
+	}
+	.pay_about {
+	    line-height: 1.3;
+	    font-size: 14px;
+	}
+
+	/*katalog*/
+	.katalog_descr,
+	.our-tovar__link.popular.katalog,
+	.katalog .popular_price {
+    margin-left: 185px;
+	}
+
+	/*stat*/
+
+	.stat__img {
+    width: 320px;
+    height: 120px;
+	}
+	.stat.mob p {
+	  width: 320px;
+	}
+
+	.stat.mob {
+    padding-left: 20px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 420px) {
+
+/*kartochka*/
+	.kartochka_descr .links, .price_bask {
+    margin-left: 23%;
+	  width: 270px;
+	}
+	.kartochka_descr p {
+		font-size: 11px;
+	}
+
+	.kartochka_descr .descr_link {
+		font-size: 11px;
+	}
+	.kartochka__price .new_price {
+    font-size: 18px;
+	}
+	.kartochka_descr .avail {
+	  left: -40px;
+	}
+	.item-title.katalog.kartochka_tov {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+	.katalog .tabs .tovar__content.img_1 {
+    background-position: 50% 50%;
+	}
+
+	/*katalog*/
+	.plitka .descr_line {
+    width: 200px;
+	}
+
+	.katalog_descr,
+	.our-tovar__link.popular.katalog,
+	.katalog .popular_price {
+    margin-left: 145px;
+	}
+
+	.katalog__img {
+	    width: 110px;
+	    height: 110px;
+	}
+
+	.katalog__list.plitka .katalog__img {
+    left: 5%;
+    top: 25px;
+	}
+
+	.buy_but.katalog {
+    margin-left: 12px;
+	}
+
+
+.download.mobile.stuff {
+			margin-left: 25%;
+	}
+}
+
+
+
+@media only screen and (max-width : 360px) {
+
+	/*home_page*/
+	.our-services.main_page .our-services__item p {
+	    margin-bottom: 8px;
+	    
+	}
+
+	/*zakazat_uslugu*/
+	.contact_form form {
+		width: 100%;
+	}
+	.col-md-7.contact.marking {
+    height: 220px;
+}
+	.mark_stars {
+    top: 170px;
+	}
+	/*dostavka*/
+	.delivery_pay img:first-child {
+    margin-left: 130px;
+	}
+	.page-wrap table {
+   font-size: 14px;
+	}
+	.page-wrap .delivery_express img {
+    width: 90px;
+	}
+
+	/*oplata*/
+	.oplata .tabs__caption .col-md-3, 
+	.oplata .tabs__caption .col-md-2, 
+	.oplata .tabs__caption_2 .col-md-3, 
+	.oplata .tabs__caption_2 .col-md-2 {
+    margin-left: 18%;
+    margin-right: -12%;
+	}
+	.pay_methods {
+	    font-size: 14px;
+	    margin-top: 13px;
+	}
+	.pay_descr:after {
+       margin-top: 1px;
+	}
+	.pay_methods.legal:before {
+        margin-top: 0px;
+  }
+
+  /*kartocka*/
+  .kartochka_descr .links, .price_bask {
+    margin-left: 22%;
+	  width: 250px;
+	}
+	.katalog .tabs .tovar__content {
+    width: 320px;
+    height: 220px;
+    
+    background-size: 80%;
+    
+	}
+	.katalog .tabs .tovar__content.img_1 {
+    margin: 0;
+    background-position: 68% 50%;
+	}
+
+	/*katalog*/
+	.plitka .descr_line {
+    width: 195px;
+	}
+
+	.katalog_descr,
+	.our-tovar__link.popular.katalog,
+	.katalog .popular_price {
+    margin-left: 110px;
+	}
+	
+	.katalog__list.plitka .katalog__img {
+    left: 2%;
+    top: 25px;
+	}
+
+	.buy_but.katalog {
+    margin-left: 12px;
+	}
+	.sort_text {
+    padding-left: 27px;
+	}
+	.katalog__img {
+    width: 100px;
+	  height: 100px;
+  }
+
+  /*stat*/
+
+	.stat__img {
+    width: 280px;
+    height: 115px;
+	}
+	.stat.mob p {
+	  width: 280px;
+	}
+
+	.stat.mob {
+    padding-left: 13px;
+  }
+
+}
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	/*Home page*/
+	.slider__item {
+    height: 160px;
+	}
+	.slider__descr h2 {
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 3px;
+    letter-spacing: 0.95px;
+	}
+	.bx-viewport {
+	    height: 160px !important;
+	}
+	/*dostavka*/
+	.delivery_pay img:first-child {
+    margin-left: 110px;
+	}
+
+	.oplata.tabs__content, .oplata.tabs__content_2 {
+    padding-left: 32px;
+	}
+	.delivery_description.pay_descr {
+    padding-left: 40px;
+	}
+}
+
+
+
+
+

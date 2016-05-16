@@ -1,0 +1,152 @@
+
+.cf:before, .cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after { clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf { *zoom: 1;
+}
+
+.smobitrigger, .mnuclose, .logo_big { display: none; }
+
+
+.navigation { float: left; }
+
+.navigation nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.navigation nav ul li { display: none; }
+
+.navigation nav ul li .ttu {
+  text-transform: uppercase;
+}
+
+.ttu.big {
+  font-size: 16px;
+}
+.navigation .ttu.big {
+  height: 40px;
+}
+
+.navigation .ttu.active{
+  color: #FFCF25;
+}
+.navigation .ttu.active:hover{
+  color: #2B2A29;
+}
+
+.navigation nav ul li a {
+  height: 30px;
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 20px;
+  transition: 0.5s;
+  font-size: 14px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.navigation nav ul li a:hover {
+  background-color: #FFCF25;
+  color: #2B2A29;
+}
+
+ @media all and (max-width : 693px) {
+.navigation nav ul li { display: inline-block; }
+.smobitrigger, .mnuclose { display: inline-block; }
+
+.logo_big { 
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.smobitrigger {
+  color: #2B2A29;
+  font-size: 24px;
+  line-height: 12px;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.mnuclose {
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.smobitrigger span, .mnuclose span {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}
+
+.navigation nav ul {
+  padding-bottom: 40px;
+  overflow-y: auto;
+}
+
+.navigation nav ul li, .navigation nav ul li a { width: 100%; }
+
+.navigation nav ul li {
+  border-top: 1px solid #3A3A39;
+  -webkit-box-shadow: 0px -1px 0px 0px rgba(29,29,29,1);
+  -moz-box-shadow: 0px -1px 0px 0px rgba(29,29,29,1);
+  box-shadow: 0px -1px 0px 0px rgba(29,29,29,1);
+}
+.navigation nav ul li:last-child {
+  border-bottom: 1px solid #3A3A39;
+}
+
+.navigation nav ul li:last-child:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #1D1D1D;
+  
+}
+
+.navigation nav ul li a {
+  padding-top: 7px;
+}
+
+.mobimenu {
+  list-style: none;
+  padding: 20px;
+  margin: 0px;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  top: 0px;
+  left: -250px;
+}
+
+.mnuopn { left: 0px !important; }
+
+.ovrActv {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.79);
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+}

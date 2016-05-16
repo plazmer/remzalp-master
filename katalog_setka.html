@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Каталог товаров</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" />
+  <link rel="stylesheet" href="css/jquery-ui.css">
+ <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="css/MobileMenu.css" />
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+      <![endif]-->
+  <!--[if gte IE 9]
+      <style type="text/css">
+      .gradient {
+      filter: none;
+      }
+      </style>
+      <![endif]-->
+    </head>
+    <body>
+<!--[if lt IE 8]>
+            <p class="browserupgrade">Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="http://browsehappy.com/">обновите ваш браузер,</a> чтобы улучшить свой опыт.</p>     
+            <![endif]-->
+ <div class="wrapper">
+        <header class="header ">
+         <div class="top-panel cf">
+        <div class="search_toggle"></div>
+        <a href="#callback" class="basket__link mobile fancybox"></a>
+         <div class="navigation">
+                <nav>
+                <a href="javascript:void(0)" class="smobitrigger ion-navicon-round"></a>
+                  <ul class="mobimenu">
+                    <li><a href="" class="ttu big"><div class="enter_menu" style="background-image: url(img/enter_white.png)"></div>Войти</a></li>
+                    <li><a href="">Главная</a></li>
+                    <li><a href="" class="ttu active">Интернет магазин</a></li>
+                    <li><a href="">Заказать услугу</a></li>
+                    <li><a href="">Корзина</a></li>
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Статьи</a></li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="">Оплата</a></li>
+                    <li><a href="">Гарантия</a></li>
+                    <li><a href="">Контакты</a></li>
+                  </ul>
+                </nav>
+              </div>
+
+          <div class="container">
+           <div class="top-panel__content clearfix">
+            <ul class="top-panel__menu clearfix">
+             <li>
+              <a href="dostavka.html">Доставка</a>
+              <span>|</span>
+            </li>
+            <li>
+              <a href="oplata.html">Оплата</a>
+              <span>|</span>
+            </li>
+            <li>
+              <a href="#">Гарантия</a>
+              <span>|</span>
+            </li>
+            <li>
+              <a href="#" class="active">Написать нам</a>
+            </li>
+          </ul>
+          <div class="currency">
+           <div class="currency__item">
+            <div class="currency__icon">
+             <div class="table-block">
+              <div class="block-vertical">
+               <img src="img/dollar.png" alt="">
+             </div>
+           </div>
+         </div>
+         <div class="currency__value">
+           <div class="table-block">
+            <div class="block-vertical">79,2158</div>
+          </div>
+        </div>
+      </div>
+      <div class="currency__item">
+        <div class="currency__icon">
+         <div class="table-block">
+          <div class="block-vertical">
+           <img src="img/euro.png" alt="">
+         </div>
+       </div>
+     </div>
+     <div class="currency__value">
+       <div class="table-block">
+        <div class="block-vertical">85,6524</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-block mobile">
+  <div class="container clearfix">
+   <div class="header-block__content">
+    <div class="logo">
+     <div class="table-block">
+      <div class="block-vertical">
+       <a href="index.html">
+        <img src="img/logo.png" alt="">
+      </a>
+    </div>
+  </div>
+</div>
+<div class="search">
+ <div class="table-block">
+  <div class="block-vertical">
+   <div class="search__item">
+    <form action="">
+     <input type="search" placeholder="введите текст..." class="search__input">
+     <input type="submit" value="" class="search__submit"> 
+   </form>
+ </div>
+ <div class="company-info">
+  <div class="company-info__tel">
+   <span class="company-info__icon">
+    <img src="img/grey-tel.png" alt="">
+  </span>
+  <a href="tel:+73432223366">+7 343 <span>222 33 66</span></a>
+</div>
+<div class="company-info__number">
+ <span class="company-info__icon">
+  <img src="img/icq.png" alt="">
+</span>
+179562363
+</div>
+<div class="company-info__mail">
+ <span class="company-info__icon">
+  <img src="img/grey-post.png" alt="">
+</span>
+<a href="mailto:bholod@bk.ru">bholod@bk.ru</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="basket">
+ <div class="table-block">
+  <div class="block-vertical">
+   <div class="basket__content">
+    <a href="#callback" class="basket__link fancybox"></a>
+    <div class="basket__title">Корзина</div>
+    <div class="basket__total"><span>7</span> товаров</div>
+    <div class="basket__price">На сумму <span>123 658</span> р.</div>
+    <div class="profile-link">
+     <a href="#" class="profile-link__item">
+      <span class="profile-link__icon">
+       <img src="img/enter.png" alt="">
+     </span>
+     <span class="profile-link__text">Вход</span>
+   </a>
+   <span>|</span>
+   <a href="#" class="profile-link__item">
+    <span class="profile-link__text">Регистрация</span>
+  </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- header -->
+
+<nav class="nav">
+ <div class="container menu_cont">
+  <ul class="nav__menu clearfix">
+   <li><a href="#">О компании</a></li>
+   <li><a class="im_yellow" href="interntet_magazin.html">Интернет-магазин</a></li>
+   <li><a href="zakazat_uslugu">Заказать услугу</a></li>
+   <li><a href="stat.html" class="active">Статьи</a></li>
+   <li><a href="contacs.html">Контакты</a></li>
+ </ul>
+</div>
+</nav>
+<!-- nav -->
+<div class="content">
+  <div class="container clearfix mobile">
+    <div class="col-md-3">
+      <div class="row">
+       <aside class="left-menu">
+
+         <div class="left-menu__title katalog">
+           <div class="left-menu__img bot" style="background-image: url(img/bot_arw.png)"></div>
+           <h3>Каталог товаров</h3>
+
+         </div>
+         <ul class="left-menu__item">
+           <li class="uncover"><a><p>Газы</p></a>
+             <ul class="submenu" >
+               <li ><a href="#"><p>Наименование</p></a></li>
+               <li><a href="#"><p>Наименование</p></a></li>
+               <li><a href="#"><p>Наименование</p></a></li>
+               <li><a href="#"><p>Наименование</p></a></li>
+             </ul></li>
+             <li class="uncover"><a><p>Электроарматура</p></a>
+              <ul class="submenu">
+               <li ><a href="#"><p>Наименование</p></a></li>
+               <li><a href="#"><p>Наименование</p></a></li>
+               <li><a href="#"><p>Наименование</p></a></li>
+               <li><a href="#"><p>Наименование</p></a></li>
+             </ul></li>
+             <li><a href=""><p>Камеры</p></a></li>
+             <li class="uncover"><a><p>Компенсаторы, запчасти</p></a>
+               <ul class="submenu">
+                 <li ><a href="#"><p>Конденсаторы, кронштейны</p></a></li>
+                 <li><a href="#"><p>Крепежные материалы</p></a></li>
+                 <li><a href="#"><p>Линейная автоматика</p></a></li>
+                 <li><a href="#"><p>Масла, технические жидкости</p></a></li>
+               </ul></li>
+               <li><a href="#"><p>Медь</p></a></li>
+               <li><a href="#"><p>Металлопрокат</p></a></li>
+               <li><a href="#"><p>Монтажные материалы</p></a></li>
+               <li><a href="#"><p>Нагреватели</p></a></li>
+               <li><a href="#"><p>Ночные шторы</p></a></li>
+               <li><a href="#"><p>Припой, флюс</p></a></li>
+               <li><a href="#"><p>Сантехнические изделия</p></a></li>
+               <li><a href="#"><p>Теплоизоляция</p></a></li>
+               <li><a href="#"><p>Торгово-техн. оборудование</p></a></li>
+             </ul>
+           </aside>
+
+           <aside class="left-menu">
+
+             <ul class="left-menu__item filter">
+               <li class="uncover"><a><p>Цена</p></a>
+                 <ul class="submenu filter" onclick="event.stopPropagation()">
+                   <li><div class="filter">
+                    <form action="#" method="post">
+                      <div class="formCost">
+                        <input type="text" id="minCost" value="0"/>
+                        <input type="text" id="maxCost" value="150000"/>
+                        <div class="search_button_filter">
+                          <a href="">Искать</a>
+                        </div>
+                      </div>
+                      <div class="sliderCont">
+                        <div id="slider"></div>
+                      </div>
+
+                    </form>
+                  </div> </li>
+                </ul></li>
+                <li class="uncover"><a><p>Тип компрессора</p></a>
+                  <ul class="submenu" onclick="event.stopPropagation()">
+                   <li>
+                     <form action="" class="checkboxes">
+                      <p><input name="kompr" type="checkbox" value="1" id="kompr_1">
+                       <label for="kompr_1">Поршневой <p class="amount"> (138)</p>
+                       </label>
+                     </p>
+                     <br>
+                     <p><input name="kompr" type="checkbox" value="2"  id="kompr_2">
+                       <label for="kompr_2">Спиральный <p class="amount"> (38)</p>
+                       </label>
+                     </p>
+                   </form>
+                 </li>
+               </ul></li>
+               <li class="uncover"><a><p>Температурный режим</p></a>
+                 <ul class="submenu" onclick="event.stopPropagation()">
+                   <li><form action="" class="checkboxes">
+                    <p><input name="temp" type="checkbox" value="1" id="temp_1">
+                     <label for="temp_1">низкотемпературный<p class="amount"> (138)</p>
+                     </label>
+                   </p>
+                   <br>
+                   <p><input name="temp" type="checkbox" value="2"  id="temp_2">
+                     <label for="temp_2">среднетемпературный <p class="amount"> (38)</p>
+                     </label>
+                   </p>
+                   <br>
+                   <p><input name="temp" type="checkbox" value="2"  id="temp_3">
+                     <label for="temp_3">высокотемпературный <p class="amount"> (38)</p>
+                     </label>
+                   </p>
+                 </form></li>
+               </ul></li>
+               <li class="uncover"><a><p>Модельный ряд</p></a>
+                 <ul class="submenu" onclick="event.stopPropagation()">
+                   <li></li>
+
+                 </ul></li>
+                 <li class="uncover"><a><p>Фреон</p></a>
+                   <ul class="submenu">
+                     <li></li>
+
+                   </ul></li>
+                 </ul>
+               </aside>
+
+               <aside class="sidebar">
+                <div class="sidebar__article">
+                  <h3 class="sidebar__title">Статьи</h3>
+                  <div class="sidebar__item">
+                    <a href="#">
+                      <div class="sidebar__img" style="background-image: url(img/sidebar-img.jpg)"></div>
+                    </a>
+                    <a href="#" class="sidebar__link">Аммиачные холодильные установки</a>
+                    <p>
+                      Холодильные агрегаты производятся на современном заводе в Италии. Все агрегаты проходят испытания под давлением, заправленные азотом ...
+                    </p>
+                  </div>
+                  <div class="sidebar__item">
+                    <a href="#">
+                      <div class="sidebar__img" style="background-image: url(img/sidebar-img.jpg)"></div>
+                    </a>
+                    <a href="#" class="sidebar__link">Аммиачные холодильные установки</a>
+                    <p>
+                      Холодильные агрегаты производятся на современном заводе в Италии. Все агрегаты проходят испытания под давлением, заправленные азотом ...
+                    </p>
+                  </div>
+                </div>
+
+              </aside>
+            </div>
+          </div>
+          <div class="col-md-9 stat">
+            <div class="row">
+              <div class="breadcrumbs">
+                <ul>
+                 <li><a class="homeCrumb" href="index.html">Главная</a></li>
+                 <img src="img/arrow.png" alt="">
+                 <li><a class="prevCrumb" href="">Интернет магазин</a></li>
+                 <img src="img/arrow.png" alt="">
+                 <li><a class="prevCrumb" href="">Компрессоры</a></li>
+                 <img src="img/arrow.png" alt="">
+                 <li class="currentCrumb">Компрессоры холодильные</li>
+               </ul>
+             </div>
+             <article class="center-content stat">
+             <a href=""><div class="back__btn"></div></a>
+              <div class="our-tovar">
+                <h1 class="item-title stat">Каталог товаров</h1>
+                <div class="sort">
+                  <p>Сортировать:</p>
+                  <form action="#" class="sort_form">
+                   <fieldset>
+                    <select name="speed" id="speed">
+                      <option>по цене</option>
+                      <option>по цене</option>
+                      <option>по цене</option>
+                      <option selected="selected">по цене</option>
+                    </select>
+                  </fieldset>
+                </form>
+              </div>
+              <div class="appear setka">
+                <p>Вид:</p>
+                <div class="appear_icons">
+                  <a href=""><div class="appear_plitka"></div></a>
+                  <a href=""><div class="appear_setka"></div></a>
+                </div>
+              </div>
+              <div class="katalog__list clearfix setka">
+
+                <div class="katalog setka">
+                  <a href="#" class "">
+                    <div class="tovar_img">
+                      <div class="katalog__img" style="background-image: url(img/tovar/katalog.png)">
+                      </div>
+                    </div>
+                  </a>
+                  <div class="descr_setka">
+                    <a href="#" class="our-tovar__link popular katalog"><p>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p></a>
+                    <p class="setka_descr_title"><b>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</b>
+                      водоохладителей с воздушным охлаждением LSF имеет модели различных размеров весом от 1,5 до 80т. Конструкция имеет двойную спираль, двойные изолированные контуры охлаждения, различные конфигурации насосов и изолированные ПЭ резервуары</p>
+                      <a href=""><p class="more">Подробнее</p></a>
+                      <div class="setka_price">
+                        <p class="popular_price">12 659р.</p>
+                        <div class="buy_but setka">
+                          <a href="">В корзину</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="katalog setka">
+                  <a href="#" class "">
+                    <div class="tovar_img">
+                      <div class="katalog__img" style="background-image: url(img/tovar/katalog.png)">
+                      </div>
+                    </div>
+                  </a>
+                  <div class="descr_setka">
+                    <a href="#" class="our-tovar__link popular katalog"><p>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p></a>
+                    <p class="setka_descr_title"><b>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</b>
+                      водоохладителей с воздушным охлаждением LSF имеет модели различных размеров весом от 1,5 до 80т. Конструкция имеет двойную спираль, двойные изолированные контуры охлаждения, различные конфигурации насосов и изолированные ПЭ резервуары</p>
+                      <a href=""><p class="more">Подробнее</p></a>
+                      <div class="setka_price">
+                        <p class="popular_price">12 659р.</p>
+                        <div class="buy_but setka">
+                          <a href="">В корзину</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="katalog setka">
+                  <a href="#" class "">
+                    <div class="tovar_img">
+                      <div class="katalog__img" style="background-image: url(img/tovar/katalog.png)">
+                      </div>
+                    </div>
+                  </a>
+                  <div class="descr_setka">
+                    <a href="#" class="our-tovar__link popular katalog"><p>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p></a>
+                    <p class="setka_descr_title"><b>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</b>
+                      водоохладителей с воздушным охлаждением LSF имеет модели различных размеров весом от 1,5 до 80т. Конструкция имеет двойную спираль, двойные изолированные контуры охлаждения, различные конфигурации насосов и изолированные ПЭ резервуары</p>
+                      <a href=""><p class="more">Подробнее</p></a>
+                      <div class="setka_price">
+                        <p class="popular_price">12 659р.</p>
+                        <div class="buy_but setka">
+                          <a href="">В корзину</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="katalog setka">
+                  <a href="#" class "">
+                    <div class="tovar_img">
+                      <div class="katalog__img" style="background-image: url(img/tovar/katalog.png)">
+                      </div>
+                    </div>
+                  </a>
+                  <div class="descr_setka">
+                    <a href="#" class="our-tovar__link popular katalog"><p>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p></a>
+                    <p class="setka_descr_title"><b>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</b>
+                      водоохладителей с воздушным охлаждением LSF имеет модели различных размеров весом от 1,5 до 80т. Конструкция имеет двойную спираль, двойные изолированные контуры охлаждения, различные конфигурации насосов и изолированные ПЭ резервуары</p>
+                      <a href=""><p class="more">Подробнее</p></a>
+                      <div class="setka_price">
+                        <p class="popular_price">12 659р.</p>
+                        <div class="buy_but setka">
+                          <a href="">В корзину</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="katalog setka">
+                  <a href="#" class "">
+                    <div class="tovar_img">
+                      <div class="katalog__img" style="background-image: url(img/tovar/katalog.png)">
+                      </div>
+                    </div>
+                  </a>
+                  <div class="descr_setka">
+                    <a href="#" class="our-tovar__link popular katalog"><p>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p></a>
+                    <p class="setka_descr_title"><b>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</b>
+                      водоохладителей с воздушным охлаждением LSF имеет модели различных размеров весом от 1,5 до 80т. Конструкция имеет двойную спираль, двойные изолированные контуры охлаждения, различные конфигурации насосов и изолированные ПЭ резервуары</p>
+                      <a href=""><p class="more">Подробнее</p></a>
+                      <div class="setka_price">
+                        <p class="popular_price">12 659р.</p>
+                        <div class="buy_but setka">
+                          <a href="">В корзину</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="katalog setka">
+                  <a href="#" class "">
+                    <div class="tovar_img">
+                      <div class="katalog__img" style="background-image: url(img/tovar/katalog.png)">
+                      </div>
+                    </div>
+                  </a>
+                  <div class="descr_setka">
+                    <a href="#" class="our-tovar__link popular katalog"><p>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p></a>
+                    <p class="setka_descr_title"><b>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</b>
+                      водоохладителей с воздушным охлаждением LSF имеет модели различных размеров весом от 1,5 до 80т. Конструкция имеет двойную спираль, двойные изолированные контуры охлаждения, различные конфигурации насосов и изолированные ПЭ резервуары</p>
+                      <a href=""><p class="more">Подробнее</p></a>
+                      <div class="setka_price">
+                        <p class="popular_price">12 659р.</p>
+                        <div class="buy_but setka">
+                          <a href="">В корзину</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="katalog setka">
+                  <a href="#" class "">
+                    <div class="tovar_img">
+                      <div class="katalog__img" style="background-image: url(img/tovar/katalog.png)">
+                      </div>
+                    </div>
+                  </a>
+                  <div class="descr_setka">
+                    <a href="#" class="our-tovar__link popular katalog"><p>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p></a>
+                    <p class="setka_descr_title"><b>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</b>
+                      водоохладителей с воздушным охлаждением LSF имеет модели различных размеров весом от 1,5 до 80т. Конструкция имеет двойную спираль, двойные изолированные контуры охлаждения, различные конфигурации насосов и изолированные ПЭ резервуары</p>
+                      <a href=""><p class="more">Подробнее</p></a>
+                      <div class="setka_price">
+                        <p class="popular_price">12 659р.</p>
+                        <div class="buy_but setka">
+                          <a href="">В корзину</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="katalog setka">
+                  <a href="#" class "">
+                    <div class="tovar_img">
+                      <div class="katalog__img" style="background-image: url(img/tovar/katalog.png)">
+                      </div>
+                    </div>
+                  </a>
+                  <div class="descr_setka">
+                    <a href="#" class="our-tovar__link popular katalog"><p>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p></a>
+                    <p class="setka_descr_title"><b>Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</b>
+                      водоохладителей с воздушным охлаждением LSF имеет модели различных размеров весом от 1,5 до 80т. Конструкция имеет двойную спираль, двойные изолированные контуры охлаждения, различные конфигурации насосов и изолированные ПЭ резервуары</p>
+                      <a href=""><p class="more">Подробнее</p></a>
+                      <div class="setka_price">
+                        <p class="popular_price">12 659р.</p>
+                        <div class="buy_but setka">
+                          <a href="">В корзину</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </article>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="paginator">
+                  <a href="#" class="pag prev hidden">1</a>
+                  <a href="#" class="pag current">1</a>
+                  <a href="#2" class="pag next">2</a>
+                  <a href="#2" class="pag next">3</a>
+                  <a href="#2" class="pag next deep">&hellip;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+     <div class="footer__menu">
+      <div class="container">
+       <ul class="clearfix">
+        <li><a href="#">О компании</a></li>
+        <li><a href="internet_magazin.html">Интернет магазин</a></li>
+        <li><a href="zakazat_uslugu.html">Заказать услугу</a></li>
+        <li><a href="stat.html">Статьи</a></li>
+        <li><a href="contacs.html">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom-panel">
+    <div class="container">
+     <div class="bottom-panel__content clearfix">
+       <ul class="bottom__menu clearfix">
+         <li>
+          <a href="dostavka.html">Доставка</a>
+          <span>|</span>
+        </li>
+        <li>
+          <a href="oplata.html">Оплата</a>
+          <span>|</span>
+        </li>
+        <li>
+          <a href="#">Гарантия</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="footer__info">
+  <div class="container">
+   <div class="footer__content clearfix">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-5">
+     <div class="row">
+      <div class="footer__copyright">
+       Copyright © 2016
+       <div class="yellow equipment">Технологическое оборудование</div>
+       <a href="http://www.bholod.ru">www.bholod.ru</a>
+     </div>
+   </div>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+   <div class="row">
+    <div class="footer__tel">
+     <div>
+      <span class="footer__icon">
+       <img src="img/yellow-tel.png" alt="">
+     </span>
+     <a href="tel:+73432221133">+7 (343) 222 11 33</a>
+   </div>
+   <div>
+    <span class="footer__icon">
+     <img src="img/yellow-mobile.png" alt="">
+   </span>
+   <a href="tel:+79122000001">+7 (912) 200 00 01</a>
+ </div>
+ <div class="post-mobile">
+  <span class="footer__icon">
+   <img src="img/yellow-post.png" alt="">
+ </span>
+ <a  href="mailto:bholod@bk.ru">bholod@bk.ru</a>                       
+</div>
+<div class="tel-hid">
+  <span class="footer__icon">
+   <img src="img/yellow-mobile.png" alt="">
+ </span>
+ <a href="tel:+79120339999">+7 (912) 033 99 99</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-5 footer__contact">
+ <div class="row">
+  <div class="footer__contact">
+   <div>
+    <span class="footer__icon">
+     <img src="img/yellow-adress.png" alt="">
+   </span>
+   г. Екатеринбург ул. Красноармейская 56
+ </div>
+ <div>
+  <span class="footer__icon">
+   <img src="img/yellow-icq.png" alt="">
+ </span>
+ 179562363
+</div>
+<div>
+  <span class="footer__icon">
+   <img src="img/yellow-post.png" alt="">
+ </span>
+ <a href="mailto:bholod@bk.ru">bholod@bk.ru</a>                       
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 paypal">
+ <div class="row">
+  <div class="footer__paypal">
+   <div class="footer__title">Мы принимаем:</div>
+   <a href="#">
+    <img src="img/visa.png" alt="">
+  </a>
+  <a href="#">
+    <img src="img/mastercard.png" alt="">
+  </a>
+  <a href="#">
+    <img src="img/paypal.png" alt="">
+  </a>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 social">
+ <div class="row">
+  <div class="footer__social">
+   <div class="footer__title">Мы в соцсетях:</div>
+   <a href="#">
+    <img src="img/vk.png" alt="">
+  </a>
+  <a href="#">
+    <img src="img/odnoklasniki.png" alt="">
+  </a>
+  <a href="#">
+    <img src="img/twitter.png" alt="">
+  </a>
+  <a href="#">
+    <img src="img/facebook.png" alt="">
+  </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden">
+  <form id="callback" class="pop_form">
+    <h3>Корзина</h3>
+    <div class="all_purchases">
+      <p>Всего товаров:</p>
+      <div class="val">23</div>
+    </div>
+    <div class="summ">
+     <p>На сумму:</p>
+     <div class="val">470 000р.</div>
+   </div>
+
+   <div class="purchases">
+    <div class="circle">
+      <div class="cross">
+        &times;
+      </div>
+    </div>
+    <div class="purch">
+      <a href="" class="purch_link">
+        <div class="purch_img">
+          <img src="img/tovar/basket_purchases.png" alt="">
+        </div>
+        <p class="name">Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p>
+        <p class="cost">18 964р.</p>
+      </a>
+      <div class="spin"><p>Количество</p>
+        <br>
+        <div class="inc button">+</div>
+        <input type="text" name="purch_1" id="purch_1" value="1">
+        <div class="dec button">-</div>
+      </div>
+      <div class="this_total">
+        <p class="total_title">Сумма</p>
+        <br>
+        <p class="tot_cost">33 459р.</p>
+      </div>
+    </div> 
+  </div> 
+
+  <div class="purchases">
+    <div class="circle">
+      <div class="cross">
+        &times;
+      </div>
+    </div>
+    <div class="purch">
+      <a href="" class="purch_link">
+        <div class="purch_img">
+          <img src="img/tovar/basket_purchases.png" alt="">
+        </div>
+        <p class="name">Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p>
+        <p class="cost">18 964р.</p>
+      </a>
+      <div class="spin"><p>Количество</p>
+        <br>
+        <div class="inc button">+</div>
+        <input type="text" name="purch_1" id="purch_1" value="1">
+        <div class="dec button">-</div>
+      </div>
+      <div class="this_total">
+        <p class="total_title">Сумма</p>
+        <br>
+        <p class="tot_cost">33 459р.</p>
+      </div>
+    </div> 
+  </div> 
+
+  <div class="purchases">
+    <div class="circle">
+      <div class="cross">
+        &times;
+      </div>
+    </div>
+    <div class="purch">
+      <a href="" class="purch_link">
+        <div class="purch_img">
+          <img src="img/tovar/basket_purchases.png" alt="">
+        </div>
+        <p class="name">Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p>
+        <p class="cost">18 964р.</p>
+      </a>
+      <div class="spin"><p>Количество</p>
+        <br>
+        <div class="inc button">+</div>
+        <input type="text" name="purch_1" id="purch_1" value="1">
+        <div class="dec button">-</div>
+      </div>
+      <div class="this_total">
+        <p class="total_title">Сумма</p>
+        <br>
+        <p class="tot_cost">33 459р.</p>
+      </div>
+    </div> 
+  </div> 
+  <a href="#" class="continue">Продолжить покупки</a>
+  <div class="basket_submit">
+   <p>Итого:</p>
+   <p class="total">55 988р.</p>
+   <button class="button_confirm" type="submit">Оформить заказ</button>
+ </div>
+</form>
+</div>
+</footer>
+
+<script src="js/vendor.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="js/main.js"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script src="js/simpleMobileMenu.js"></script>
+<script>
+  $(document).ready(function() {
+   $('.smobitrigger').smplmnu();
+ });
+  $(function() {
+    $( "#speed" ).selectmenu();
+  });
+
+</script>
+
+</body>
+</html>
