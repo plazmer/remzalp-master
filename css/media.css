@@ -85,6 +85,13 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+
+	.footer {
+		height: 201px;
+	}
+	.content {
+		padding-bottom: 206px;
+	}
 	.logo img {
 		max-width: 80%;
 	}
@@ -127,9 +134,9 @@
     width: 53%;
     margin-top: 15px;
   }
-  .mark_stars {
-  	left: 38%;
-  }
+  .mark_sec {
+    margin-top: 160px;
+	}
 
    .contact .contact_form p {
     margin-bottom: 10px;
@@ -244,17 +251,20 @@
 	.search_button_filter {
     width: 65px;
   }
-  input[type="checkbox"]:not(:checked) + label, input[type="checkbox"]:checked + label {
+  .formCost input[type="checkbox"]:not(:checked) + label, input[type="checkbox"]:checked + label {
     padding-left: 20px;
 	}
-	input[type="radio"]:not(:checked) +label, input[type="checkbox"]:not(:checked) +label {
+	.formCost input[type="radio"]:not(:checked) +label, input[type="checkbox"]:not(:checked) +label {
     font-size: 11px;
 	}
 	.katalog_mobile .left-menu__item .amount	{
 		font-size: 11px;
 		padding-left: 2px;
 	}
-
+	#auth p .remember {
+		font-size: 12px;
+		padding-left: 23px;
+	}
 
 	/*stat*/
 
@@ -402,16 +412,18 @@
     height: 370px;
   }
   .mark p {
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 40px;
   }
+  .mark_sec {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin-top: 0;
+}
   .col-md-7.contact.marking {
   	height: 190px;
   }
-  .mark_stars {
-    top: 115px;
-    left: 137px;
-	}
 
 	/*	dostavka*/
 	.courier {
@@ -502,6 +514,79 @@
   	display: none;
   }
 
+  /*basket*/
+	.purch {
+	  margin-left: 70px;
+	}
+
+	.purch_img {
+    padding-right: 30px;
+	}
+	.purch .cost {
+    left: 185px;
+  }
+  .spin {
+    margin-left: 0px;
+  }
+  .pop_form h3 {
+    font-size: 30px;
+    margin-right: 90px;
+  }
+  .purch .cost {
+    top: 50px;
+    font-size: 20px;
+  }
+  .this_total .tot_cost {
+     font-size: 20px;
+  }
+  .this_total {
+  	margin-left: 20px;
+  }
+  .purch_link {
+    max-width: 350px;
+	}
+	.purch {
+		margin-left: 60px;
+	}
+	.purch_img {
+    padding-right: 20px;
+	}
+	.purch .cost {
+    left: 167px;
+	}
+	.continue {
+    width: 225px;
+    height: 50px;
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .basket_submit .total {
+    font-size: 20px;
+  }
+  .button_confirm {
+    width: 195px;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 3px;
+  }
+  .spin input {
+    width: 55px;
+  }
+
+	/*register*/
+  .social_register {
+    padding-left: 16px;
+	}
+
+	.social_register_text {
+		padding-top: 0;
+	}
+
+	.reg_form .reg_email_input, 
+	.reg_form .reg_password_input, 
+	.reg_form .reg_name_input, 
+	.reg_form .reg_tel_input {
+    width: 70%;
 }
 
 
@@ -578,6 +663,12 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+		.footer {
+		height: 186px;
+	}
+	.content {
+		padding-bottom: 191px;
+	}
 	.logo img {
     margin-bottom: 10px;
 	}
@@ -687,6 +778,20 @@
 		margin-right: 0;
 	  margin-bottom: 30px;
 	}
+	.pop_form h3 {
+        margin-right: 70px;
+	}
+	.purch_link {
+    max-width: 340px;
+	}
+
+
+			/*register */
+	.social_register_text {
+	   width: 500px;
+	}
+
+
 }
    @media only screen and (max-width : 767px) {
 	
@@ -755,7 +860,12 @@
 
 
 @media only screen and (max-width : 693px) {
-
+.footer {
+		height: 151px;
+	}
+	.content {
+		padding-bottom: 156px;
+	}
 	.back__btn {
 		display: inline-block;
     position: absolute;
@@ -831,7 +941,7 @@
 	}
 	.basket__link.mobile {
 		display: inline-block;
-		left: 83%;
+		left: 82%;
 		top: -2px;
 	  background-size:75%;
 	  height: 40px
@@ -1240,6 +1350,115 @@
 	.item-title.stat {
 		margin-bottom: 30px;
 	}
+
+	.basket_mobile_form .val,
+	.basket_mobile_form p {
+	  display: inline-block;
+	  padding: 0;
+	}
+
+	.basket_mobile_form .val {
+	  background-color: #000;
+	  color: #fff;
+	  padding: 7px 10px;
+	}
+
+	.basket_mobile_form {
+		padding-top: 20px;
+		margin-bottom: 20px;
+		height: 100%;
+	}
+	.basket_mobile_form h3 {
+		display: none;
+	}
+	.top_val {
+		margin-left: 28%;
+	}
+	.purch_link {
+		display: block;
+		margin-left: 20%;
+		width: 100%;
+	}
+	.this_total p {
+    margin-bottom: 10px;
+	}
+	.spin {
+    margin-left: 72%;
+    margin-right: 13%;
+	}
+	.circle {
+    left: 8%;
+  }
+  .purch .cost {
+  	top: 68%;
+  	left: 19%;
+  }
+  .purch_img {
+    padding-right: 50px;
+	}
+	.purchases {
+    margin-top: 25px;
+  }
+  .purchases:after {
+  	margin-top: 17px;
+  }
+  .continue {
+  	margin-left: 20px;
+  }
+  .basket_submit {
+  	margin-bottom: 25px;
+  }
+
+		/*registration*/
+  .col-md-12.registration:before {
+  	display: none;
+  }
+	.reg_form {
+		padding-left: 100px;
+	}
+	.reg_label {
+     left: 110px;
+     font-size: 12px;
+   }
+   .reg_form h2 {
+   	display: block;
+   	font-size: 16px;
+   	font-weight: bold;
+   	text-transform: uppercase;
+   	margin-top: 10px;
+   }
+   .reg_label.email {
+	  top: 58px;
+	}
+	.reg_label.password {
+	  top: 116px;
+	}
+	.reg_label.name {
+	  top: 173px;
+	}
+	.reg_label.tel {
+	  top: 230px;
+	}
+	.reg_form .reg_email_input, 
+	.reg_form .reg_password_input, 
+	.reg_form .reg_name_input, 
+	.reg_form .reg_tel_input {
+    width: 80%;
+	}
+	.agreement {
+     width: 290px;
+	}
+	.social_register {
+	    padding-left: 115px;
+	}
+	.reg_submit {
+		width: 195px;
+		font-size: 16px;
+	}
+	.social_register_text {
+		font-size: 12px;
+		width: 350px;
+	}
 }
 
 
@@ -1311,6 +1530,26 @@
 		margin-top: 0;
 	}
 
+/*korzina_mob*/
+	.top_val {
+    margin-left: 20%;
+	}
+	.spin {
+    margin-left: 56%;
+  }
+  .continue {
+    width: 193px;
+    height: 45px;
+    font-size: 14px;
+    padding-top: 13px;
+    padding-left: 8px;
+	}
+	.basket_submit {
+    width: 230px;
+    height: 115px;
+    font-size: 16px;
+    margin-right: 30px;
+	}
 }
 
 
@@ -1392,6 +1631,27 @@
 	.download.mobile.stuff {
 			margin-left: 30%;
 	}
+
+	/*korzina_mob*/
+	.continue {
+    margin-left: 13px;
+	}
+
+	.spin {
+    margin-left: 50%;
+    margin-right: 4%;
+	}	
+	.top_val {
+    margin-left: 7%;
+	}
+	.purch_img {
+    padding-right: 12px;
+	}
+	.button_confirm {
+    width: 180px;
+    height: 48px;
+    font-size: 16px;
+  }
 }
 
 
@@ -1543,10 +1803,143 @@
     padding-left: 20px;
   }
 
+  /*zakazat_uslugu*/
+	.mark p {
+    margin-bottom: 100px;
+  }
+  .mark_sec {
+    top: 145px;
+  }
+
+  /*authorization*/
+  .auth_form {
+    width: 245px;
+  }
+
+  .auth_form input {
+  	display: block;
+  }
+  
+ .auth_form .forg a, .auth_form .registrate a {
+    font-size: 14px;
+	}
+	.auth_form .forg a {
+		position: absolute;
+		bottom: 48px;
+		right: 0;
+	}
+	.auth_form .registrate a {
+		margin-top: 30px;
+    margin-left: 33px;
 }
+	.auth_form .forg {
+    margin-right: 10px;
+	}
 
+	.forgot_form {
+  width: 245px;
+	}
+	.forgot.cancel {
+		font-size: 13px;
+	}
+	.forgot_form .enter_email {
+    font-size: 12px;
+    width: 240px;
+    margin-top: 10px;
+	}
+	.forgot.cancel p {
+   width: 151px;
+	}
 
-
+		/*korzina_mob*/
+		.basket_submit {
+			padding-top: 10px;
+		}
+		.basket_submit .total {
+    font-size: 18px;
+	}
+		.basket_submit {
+    width: 205px;
+    height: 105px;
+    margin: 0;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    margin-left: -102px;
+	}
+	.continue {
+    width: 193px;
+    height: 45px;
+    font-size: 14px;
+    padding-top: 13px;
+    padding-left: 8px;
+    margin: 0;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    margin-left: -97px;
+}
+	.basket_mobile_form {
+   	margin-bottom: 190px;
+  }
+   .purch {
+    margin-left: 15px;
+	}
+	.circle {
+   	left: 5%;
+	}
+	.purch .cost {
+    left: 10%;
+	}
+	.summ {
+		margin-right: 0;
+	}
+	.top_val {
+    margin-left: 5%;
+	}
+	.spin {
+    margin-left: 45%;
+    margin-right: 3%;
+	}
+	.purch .name {
+		font-size: 13px;
+	}
+	.purch_link {
+    width: 91%;
+}
+.reg_form {
+		padding-left: 20px;
+	}
+	.reg_label {
+     left: 30px;
+     font-size: 12px;
+   }
+   .social_register {
+    padding-left: 36px;
+	}
+	.social_register_text {
+		width: 285px;
+		margin-bottom: 10px;
+	}
+	.register_vk, .register_fb {
+		display: inline-block;
+		width: 135px;
+		height: 33px;
+		font-size: 14px;
+	}
+	.register_vk{
+		margin-right: 5px;
+	}
+	.register_vk a img, 
+	.register_fb a img {
+    width: 33px;
+    height: 33px;
+   }
+   .register_vk a p, .register_fb a p {
+    top: 10px;
+    left: 45px;
+   }
+}
 
 
 
@@ -1610,6 +2003,31 @@
 
 .download.mobile.stuff {
 			margin-left: 25%;
+	}
+
+	/*korzina_mob*/
+	.basket_mobile_form .val, 
+	.basket_mobile_form p {
+		font-size: 12px;
+	}
+	.top_val:after {
+	  content: "";
+    display: block;
+    height: 1px;
+    background: #DCDCDC;
+    margin-top: 15px;
+    margin-left: -20px;
+ 	}
+	 .purch_link {
+	 	margin-left: 15%;
+	 	width: 82%;
+	 }
+ .spin {
+    margin-left: 34%;
+    margin-right: 0%;
+	}
+	.purch .cost {
+	    left: 7%;
 	}
 }
 
@@ -1721,6 +2139,26 @@
     padding-left: 13px;
   }
 
+ /*korzina_mob*/
+
+	.this_total .tot_cost {
+	    font-size: 18px;
+	}
+	.purch .cost {
+		font-size: 18px;
+	}
+	.spin {
+    margin-left: 30%;
+  }
+  .purch_link {
+	 	width: 80%;
+	 }
+	 .all_purchases, .summ {
+    margin-right: 10px;
+  }
+  .purch_img img {
+  	width: 70px;
+  }
 }
 
 
@@ -1756,6 +2194,9 @@
 	.delivery_description.pay_descr {
     padding-left: 40px;
 	}
+
+	/*korzina_mob*/
+	
 }
 
 

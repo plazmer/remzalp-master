@@ -82,18 +82,7 @@
   padding-top: 8px;
 }
 
-.mnuclose {
-  font-size: 20px;
-  padding: 10px 20px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.18);
-}
 
-.smobitrigger span, .mnuclose span {
-  font: 0/0 a;
-  text-shadow: none;
-  color: transparent;
-}
 
 .navigation nav ul {
   padding-bottom: 40px;

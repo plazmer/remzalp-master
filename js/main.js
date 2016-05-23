@@ -134,6 +134,78 @@ $('#u_input_message').blur(function() {
     
 });
 
+// color placeholder-password (registration page)
+$('#input_password').focus(function() {
+    $('#label_password').hide();
+});
+
+$('#input_password').blur(function() {
+    if ($(this).val().trim() === '') {
+        $('#label_password').show();
+    }
+    
+});
+
+// color placeholder-name (registration page)
+$('#reg_input_name').focus(function() {
+    $('#reg_label_name').hide();
+});
+
+$('#reg_input_name').blur(function() {
+    if ($(this).val().trim() === '') {
+        $('#reg_label_name').show();
+    }
+    
+});
+
+// color placeholder-tel (registration page)
+$('#reg_input_tel').focus(function() {
+    $('#reg_label_tel').hide();
+});
+
+$('#reg_input_tel').blur(function() {
+    if ($(this).val().trim() === '') {
+        $('#reg_label_tel').show();
+    }
+    
+});
+
+// color placeholder-fname (zakaz page)
+$('#zakaz_fname').focus(function() {
+    $('#zakaz_fname_label').hide();
+});
+
+$('#zakaz_fname').blur(function() {
+    if ($(this).val().trim() === '') {
+        $('#zakaz_fname_label').show();
+    }
+    
+});
+
+// color placeholder-city (zakaz page)
+$('#zakaz_city').focus(function() {
+    $('#zakaz_city_label').hide();
+});
+
+$('#zakaz_city').blur(function() {
+    if ($(this).val().trim() === '') {
+        $('#zakaz_city_label').show();
+    }
+    
+});
+
+// color placeholder-zakaz_tel (zakaz page)
+$('#zakaz_tel').focus(function() {
+    $('#rzakaz_tel_label').hide();
+});
+
+$('#zakaz_tel').blur(function() {
+    if ($(this).val().trim() === '') {
+        $('#rzakaz_tel_label').show();
+    }
+    
+});
+
 
 $(document).ready(function() {
 
@@ -197,7 +269,7 @@ jQuery("input#maxCost").change(function(){
 
 
 // фильтрация ввода в поля
-    jQuery('input').keypress(function(event){
+    jQuery('.formCost input').keypress(function(event){
         var key, keyChar;
         if(!event) var event = window.event;
         

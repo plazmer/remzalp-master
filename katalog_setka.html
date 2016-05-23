@@ -31,12 +31,12 @@
         <header class="header ">
          <div class="top-panel cf">
         <div class="search_toggle"></div>
-        <a href="#callback" class="basket__link mobile fancybox"></a>
+        <a href="#" class="basket__link mobile"></a>
          <div class="navigation">
                 <nav>
                 <a href="javascript:void(0)" class="smobitrigger ion-navicon-round"></a>
                   <ul class="mobimenu">
-                    <li><a href="" class="ttu big"><div class="enter_menu" style="background-image: url(img/enter_white.png)"></div>Войти</a></li>
+                       <li><a href="#auth" class="ttu big fancybox mnuclose"><div class="enter_menu" style="background-image: url(img/enter_white.png)"></div>Войти</a></li>
                     <li><a href="">Главная</a></li>
                     <li><a href="" class="ttu active">Интернет магазин</a></li>
                     <li><a href="">Заказать услугу</a></li>
@@ -156,7 +156,7 @@
     <div class="basket__total"><span>7</span> товаров</div>
     <div class="basket__price">На сумму <span>123 658</span> р.</div>
     <div class="profile-link">
-     <a href="#" class="profile-link__item">
+      <a href="#auth" class="profile-link__item fancybox">
       <span class="profile-link__icon">
        <img src="img/enter.png" alt="">
      </span>
@@ -556,7 +556,7 @@
 
         </div>
       </div>
-    </div>
+   
     <footer class="footer">
      <div class="footer__menu">
       <div class="container">
@@ -693,6 +693,27 @@
 </div>
 </div>
 <div class="hidden">
+ <form id="auth" class="auth_form">
+  <h1>Вход</h1>
+  <input type="email" name="email" class="auth_email_input" placeholder="Электронная почта" required>
+  <input type="password" name="password" class="auth_password_input" placeholder="Пароль" required>
+  <input type="submit" value="Войти" class="auth_enter">
+  <div class="cancel" id="cancel_button"><p>Отмена</p></div>
+  <p><input name="remember" type="checkbox" value="1" id="remember" checked>
+  <label for="remember" class="remember">Запомнить меня</p></label>
+
+ <div class="forg"><a href="#forgot" class="forgot fancybox">Забыли пароль?</a></div>
+ <div class="registrate"><a href="#" class="registrate">Зарегистрироваться</a></div>
+ </form>
+<form id="forgot" class="forgot_form">
+  <h1>Напомнить пароль</h1>
+  <input type="email" name="email" class="forgot_email_input" placeholder="Электронная почта" required>
+ <div class="enter_email"><p>Введите адрес почты, который вы указывали при регистрации, на этот адрес отправим пароль</p></div>
+ <input type="submit" value="Напомнить пароль" class="forgot_enter">
+  <div class="forgot cancel" ><p>Я вспомнил свой пароль</p></div>
+   </form>
+
+
   <form id="callback" class="pop_form">
     <h3>Корзина</h3>
     <div class="all_purchases">
@@ -796,12 +817,12 @@
 </form>
 </div>
 </footer>
+ </div>
 
-<script src="js/vendor.js"></script>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script src="js/main.js"></script>
 <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script src="js/main.js"></script>
 <script src="js/simpleMobileMenu.js"></script>
 <script>
   $(document).ready(function() {
@@ -810,7 +831,9 @@
   $(function() {
     $( "#speed" ).selectmenu();
   });
-
+  $(document).on('click', '.cancel', function() {
+    $.fancybox.close();
+});
 </script>
 
 </body>

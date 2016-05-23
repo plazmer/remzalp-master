@@ -20,7 +20,7 @@
     	hittrigger.addClass('inrwrpr');
     	clspos.addClass('inrwrpr');
     	$('.inrwrpr').wrapAll( "<div class='navwrp'>" );
-    	clspos.prepend('<a href="javascript:void(0)"><div class="logo_big" style="background-image: url(img/logo_big.png)"></div></a>');
+    	clspos.prepend('<a href="javascript:void(0)"><div class="logo_big mnuclose" style="background: url(img/logo_big.png) no-repeat;"></div></a>');
     	$('body').prepend(overllay);
     	
  		

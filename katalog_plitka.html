@@ -31,27 +31,27 @@
               <header class="header ">
                <div class="top-panel cf">
                 <div class="search_toggle"></div>
-                <a href="#callback" class="basket__link mobile fancybox"></a>
+                <a href="#callback" class="basket__link mobile "></a>
                 <div class="navigation">
                   <nav>
                     <a href="javascript:void(0)" class="smobitrigger ion-navicon-round"></a>
                     <ul class="mobimenu">
-                      <li><a href="" class="ttu big"><div class="enter_menu" style="background-image: url(img/enter_white.png)"></div>Войти</a></li>
-                      <li><a href="">Главная</a></li>
-                      <li><a href="" class="ttu active">Интернет магазин</a></li>
-                      <li><a href="">Заказать услугу</a></li>
-                      <li><a href="">Корзина</a></li>
-                      <li><a href="">О компании</a></li>
-                      <li><a href="">Статьи</a></li>
-                      <li><a href="">Доставка</a></li>
-                      <li><a href="">Оплата</a></li>
-                      <li><a href="">Гарантия</a></li>
-                      <li><a href="">Контакты</a></li>
-                    </ul>
-                  </nav>
-                </div>
+                     <li><a href="#auth" class="ttu big fancybox mnuclose"><div class="enter_menu" style="background-image: url(img/enter_white.png)"></div>Войти</a></li>
+                     <li><a href="">Главная</a></li>
+                     <li><a href="" class="ttu active">Интернет магазин</a></li>
+                     <li><a href="">Заказать услугу</a></li>
+                     <li><a href="">Корзина</a></li>
+                     <li><a href="">О компании</a></li>
+                     <li><a href="">Статьи</a></li>
+                     <li><a href="">Доставка</a></li>
+                     <li><a href="">Оплата</a></li>
+                     <li><a href="">Гарантия</a></li>
+                     <li><a href="">Контакты</a></li>
+                   </ul>
+                 </nav>
+               </div>
 
-                <div class="container">
+               <div class="container">
                  <div class="top-panel__content clearfix">
                   <ul class="top-panel__menu clearfix">
                    <li>
@@ -156,7 +156,7 @@
     <div class="basket__total"><span>7</span> товаров</div>
     <div class="basket__price">На сумму <span>123 658</span> р.</div>
     <div class="profile-link">
-     <a href="#" class="profile-link__item">
+     <a href="#auth" class="profile-link__item fancybox">
       <span class="profile-link__icon">
        <img src="img/enter.png" alt="">
      </span>
@@ -833,7 +833,7 @@
 
   </div>
 </div>
-</div>
+
 <footer class="footer">
  <div class="footer__menu">
   <div class="container">
@@ -972,78 +972,97 @@
 <div class="hidden">
 
  <form id="filter__btn" class="filter__btn_form">
-      <aside class="mobile_filter">
+  <aside class="mobile_filter">
 
-           <ul class="modal filter">
-             <li class="uncover"><a><p>Цена</p></a>
-               <ul class="submenu filter" onclick="event.stopPropagation()">
-                 <li><div class="filter">
-                  <form action="#" method="post">
-                    <div class="formCost">
-                      <input type="text" id="minCost_mobile" value="0"/>
-                      <input type="text" id="maxCost_mobile" value="150000"/>
-                      <div class="search_button_filter">
-                        <a href="">Искать</a>
-                      </div>
-                    </div>
-                    <div class="sliderCont">
-                      <div id="slider_mobile"></div>
-                    </div>
+   <ul class="modal filter">
+     <li class="uncover"><a><p>Цена</p></a>
+       <ul class="submenu filter" onclick="event.stopPropagation()">
+         <li><div class="filter">
+          <form action="#" method="post">
+            <div class="formCost">
+              <input type="text" id="minCost_mobile" value="0"/>
+              <input type="text" id="maxCost_mobile" value="150000"/>
+              <div class="search_button_filter">
+                <a href="">Искать</a>
+              </div>
+            </div>
+            <div class="sliderCont">
+              <div id="slider_mobile"></div>
+            </div>
 
-                  </form>
-                </div> </li>
-              </ul></li>
-              <li class="uncover"><a><p>Тип компрессора</p></a>
-                <ul class="submenu" onclick="event.stopPropagation()">
-                 <li>
-                   <form action="" class="checkboxes">
-                    <p><input name="kompr_mobile" type="checkbox" value="1" id="kompr_mobile">
-                     <label for="kompr_mobile">Поршневой <p class="amount"> (138)</p>
-                     </label>
-                   </p>
-                   <br>
-                   <p><input name="kompr_mobile_2" type="checkbox" value="2"  id="kompr_mobile_2">
-                     <label for="kompr_mobile_2">Спиральный <p class="amount"> (38)</p>
-                     </label>
-                   </p>
-                 </form>
-               </li>
-             </ul></li>
-             <li class="uncover"><a><p>Температурный режим</p></a>
-               <ul class="submenu" onclick="event.stopPropagation()">
-                 <li><form action="" class="checkboxes">
-                  <p><input name="temp_mobile" type="checkbox" value="1" id="temp_mobile_1">
-                   <label for="temp_mobile_1">низкотемпературный<p class="amount"> (138)</p>
-                   </label>
-                 </p>
-                 <br>
-                 <p><input name="temp_mobile" type="checkbox" value="2"  id="temp_mobile_2">
-                   <label for="temp_mobile_2">среднетемпературный <p class="amount"> (38)</p>
-                   </label>
-                 </p>
-                 <br>
-                 <p><input name="temp_mobile" type="checkbox" value="2"  id="temp_mobile_3">
-                   <label for="temp_mobile_3">высокотемпературный <p class="amount"> (38)</p>
-                   </label>
-                 </p>
-               </form></li>
-             </ul></li>
-             <li class="uncover"><a><p>Модельный ряд</p></a>
-               <ul class="submenu" onclick="event.stopPropagation()">
-                 <li></li>
-                 
-               </ul></li>
-               <li class="uncover"><a><p>Фреон</p></a>
-                 <ul class="submenu">
-                   <li></li>
-                   
-                 </ul></li>
-               </ul>
-             </aside>
+          </form>
+        </div> </li>
+      </ul></li>
+      <li class="uncover"><a><p>Тип компрессора</p></a>
+        <ul class="submenu" onclick="event.stopPropagation()">
+         <li>
+           <form action="" class="checkboxes">
+            <p><input name="kompr_mobile" type="checkbox" value="1" id="kompr_mobile">
+             <label for="kompr_mobile">Поршневой <p class="amount"> (138)</p>
+             </label>
+           </p>
+           <br>
+           <p><input name="kompr_mobile_2" type="checkbox" value="2"  id="kompr_mobile_2">
+             <label for="kompr_mobile_2">Спиральный <p class="amount"> (38)</p>
+             </label>
+           </p>
+         </form>
+       </li>
+     </ul></li>
+     <li class="uncover"><a><p>Температурный режим</p></a>
+       <ul class="submenu" onclick="event.stopPropagation()">
+         <li><form action="" class="checkboxes">
+          <p><input name="temp_mobile" type="checkbox" value="1" id="temp_mobile_1">
+           <label for="temp_mobile_1">низкотемпературный<p class="amount"> (138)</p>
+           </label>
+         </p>
+         <br>
+         <p><input name="temp_mobile" type="checkbox" value="2"  id="temp_mobile_2">
+           <label for="temp_mobile_2">среднетемпературный <p class="amount"> (38)</p>
+           </label>
+         </p>
+         <br>
+         <p><input name="temp_mobile" type="checkbox" value="2"  id="temp_mobile_3">
+           <label for="temp_mobile_3">высокотемпературный <p class="amount"> (38)</p>
+           </label>
+         </p>
+       </form></li>
+     </ul></li>
+     <li class="uncover"><a><p>Модельный ряд</p></a>
+       <ul class="submenu" onclick="event.stopPropagation()">
+         <li></li>
 
- </form>
-     
-     <form id="callback" class="pop_form">
+       </ul></li>
+       <li class="uncover"><a><p>Фреон</p></a>
+         <ul class="submenu">
+           <li></li>
+
+         </ul></li>
+       </ul>
+     </aside>
+
+   </form>
+   <form id="auth" class="auth_form">
+    <h1>Вход</h1>
+    <input type="email" name="email" class="auth_email_input" placeholder="Электронная почта" required>
+    <input type="password" name="password" class="auth_password_input" placeholder="Пароль" required>
+    <input type="submit" value="Войти" class="auth_enter">
+    <div class="cancel" id="cancel_button"><p>Отмена</p></div>
+    <p><input name="remember" type="checkbox" value="1" id="remember" checked>
+      <label for="remember" class="remember">Запомнить меня</p></label>
+
+      <div class="forg"><a href="#forgot" class="forgot fancybox">Забыли пароль?</a></div>
+      <div class="registrate"><a href="#" class="registrate">Зарегистрироваться</a></div>
+    </form>
+
+    <form id="forgot" class="forgot_form">
+      <h1>Напомнить пароль</h1>
+      <input type="email" name="email" class="forgot_email_input" placeholder="Электронная почта" required>
+      <div class="enter_email"><p>Введите адрес почты, который вы указывали при регистрации, на этот адрес отправим пароль</p></div>
+      <input type="submit" value="Напомнить пароль" class="forgot_enter">
+      <div class="forgot cancel" ><p>Я вспомнил свой пароль</p></div>
+    </form>
+    <form id="callback" class="pop_form">
       <h3>Корзина</h3>
       <div class="all_purchases">
         <p>Всего товаров:</p>
@@ -1146,12 +1165,11 @@
  </form>
 </div>
 </footer>
-
-<script src="js/vendor.js"></script>
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script src="js/main.js"></script>
 <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script src="js/main.js"></script>
 <script src="js/simpleMobileMenu.js"></script>
 <script>
   $(document).ready(function() {
@@ -1160,7 +1178,9 @@
   $(function() {
     $( "#speed" ).selectmenu();
   });
-
+  $(document).on('click', '.cancel', function() {
+    $.fancybox.close();
+  });
 </script>
 
 </body>
