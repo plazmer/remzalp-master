@@ -582,7 +582,7 @@
                         <p>ZB</p>
                         <p>спиральный</p>
                         <div class="buy_but">
-                          <a href="">Купить</a>
+                        <a href="#buy" class="fancybox">Купить</a>
                         </div>
                       </div>
                     </div>
@@ -613,7 +613,7 @@
                         <p>ZB</p>
                         <p>спиральный</p>
                         <div class="buy_but">
-                          <a href="">Купить</a>
+                         <a href="#buy" class="fancybox">Купить</a>
                         </div>
                       </div>
                     </div>
@@ -644,7 +644,7 @@
                         <p>ZB</p>
                         <p>спиральный</p>
                         <div class="buy_but">
-                          <a href="">Купить</a>
+                         <a href="#buy" class="fancybox">Купить</a>
                         </div>
                       </div>
                     </div>
@@ -675,7 +675,7 @@
                         <p>ZB</p>
                         <p>спиральный</p>
                         <div class="buy_but">
-                          <a href="">Купить</a>
+                        <a href="#buy" class="fancybox">Купить</a>
                         </div>
                       </div>
                     </div>
@@ -978,6 +978,39 @@
    <button class="button_confirm" type="submit">Оформить заказ</button>
  </div>
 </form>
+
+<form id="buy" class="buy_form">
+      <h1>2 товара на сумму <p>37 318р.</p></h1>
+
+      <div class="buy_form_purch">
+
+        <div class="buy_form_img">
+          <img src="img/tovar/basket_purchases.png" alt="">
+        </div>
+        <a href="" class=""> 
+          <p class="name">Компрессор холодильный Copeland ZB 15 K4E- TFD- 551</p>
+        </a>
+        <div class="buy_form_summ">
+          <p class="summ_title">Сумма</p>
+          <br>
+          <p class="summ_val">33 459р.</p>
+        </div>
+        <div class="spin">
+         <div class="inc button">+</div>
+         <input type="text" name="purch_1" id="purch_1" value="1">
+         <div class="dec button">-</div>
+       </div>
+     </div> 
+      <input type="submit" class="buy_form_submit" value="Оформить заказ"> 
+      <div class="continue_buying"><a href="" class="cont_link">Продолжить покупки</a>
+      <p class="buy_notice">товар сохранится в корзине</p>
+      </div>
+<h2>Заказать без оформления</h2>
+<p class="without_reg">Можно не заполнять никаких форм, просто оставить телефон и консультант решит все вопросы по оформлению заказа</p>
+<input type="tel" id="buy_form_input_tel" name="buy_form_tel" class="buy_form_tel" placeholder="+7 (0ХХ) ХХХ-ХХ-ХХ-ХХ" required>
+ <input type="button" name="wait_for_call" class="wait_for_call" value="Жду звонка"> 
+  <p class="buy_notice_small">например: +7 (495) 596-65-41-32</p>
+   </form>
 </div>
 </footer>
 </div>
@@ -986,9 +1019,13 @@
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="js/fancybox/jquery.fancybox.pack.js"></script>
 <script src="js/main.js"></script>
+<script src="js/maskedinput.min.js"></script>
 <script src="js/simpleMobileMenu.js"></script>
 <script type="text/javascript">
   $(document).ready(function() {
+     jQuery(function($){
+     $("#buy_form_input_tel").mask("+7(022) 222-2222",{autoclear: false});
+   });
    $('.smobitrigger').smplmnu();
  });
   $(document).on('click', '.cancel', function() {

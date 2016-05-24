@@ -1133,7 +1133,6 @@ ul.bxslider {
    display: inline-block;
    vertical-align: top;
    text-align: center;
-   margin-left: 65px;
    -moz-user-select: -moz-none;
   -o-user-select: none;
   -khtml-user-select: none;
@@ -3848,9 +3847,12 @@ border-left: 1px solid #DCDCDC;
 
 /*oform_zakaz*/
 
+.center-content.zakaz {
+  padding-top: 15px;
+}
+
 .zakaz.item-title {
   text-transform: none;
-  margin-top: 20px;
 }
 
 
@@ -3895,7 +3897,9 @@ border-left: 1px solid #DCDCDC;
 
 .zakaz_form .zakaz_fname_input,
 .zakaz_form .zakaz_city_input,
-.zakaz_form .zakaz_tel_input {
+.zakaz_form .zakaz_tel_input,
+.zakaz_form .zakaz_email_input {
+  display: block;
   width: 100%;
   border: 1px solid #dedede;
   border-bottom: 4px solid #dedede;
@@ -3926,6 +3930,11 @@ border-left: 1px solid #DCDCDC;
   top: 187px;
 }
 
+.zakaz_label.email {
+  top: 245px;
+}
+
+
 .zakaz_submit {
   width: 100px;
   height: 43px;
@@ -3953,8 +3962,6 @@ border-left: 1px solid #DCDCDC;
   padding-left: 220px;
 }
 .zakaz_tovar {
-  white-space: nowrap;
-  overflow: auto;
   border-bottom: 1px solid #DCDCDC;
   margin-right: 14px;
   margin-top: 15px;
@@ -4060,3 +4067,462 @@ border-left: 1px solid #DCDCDC;
   font-weight: bold;
   color: #DEDEDE;
 }
+
+.zakaz_title_mob {
+  display: none;
+}
+
+
+
+/*zakaz_page_2*/
+
+
+.zakaz_2 {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #DEDEDE;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-left: 12px;
+  margin-bottom: 5px;
+}
+
+.return_edit {
+  display: inline-block;
+  margin-left: 85px;
+  font-size: 14px;
+  color: #2F8DC6;
+  border-bottom: 1px dotted;
+}
+
+.previuos_offer {
+  margin-top: -10px;
+}
+
+.previuos_offer:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #DCDCDC;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.previuos_offer h2 {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: #DEDEDE;
+}
+
+.zakaz_1.second_page {
+  padding-left: 13px;
+}
+
+.second_page .zakaz_tovar {
+  max-width: 495px;
+}
+.choose_delivery p {
+  display: inline-block;
+
+}
+
+.choose_delivery_title {
+  font-size: 20px;
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+
+/* radiobuttons */
+.choose_delivery input[type="radio"]:not(:checked) + label:before,
+.choose_delivery input[type="radio"]:checked + label:before {
+  content:'';
+  position: absolute;
+  left:0; 
+  top: 1px;
+  width: 8px; 
+  height: 8px;
+  border: 3px solid #FFCF25;
+  background: #fff;
+  border-radius: 10px;
+   transition: all .2s;
+}
+
+.choose_delivery input[type="radio"]:not(:checked) +label {
+  color: #595959;
+  font-size: 14px;
+}
+
+.choose_delivery input[type="radio"] +label {
+  color: #2b2a29;
+  font-size: 14px;
+  margin-left: 40px;
+  padding-left: 22px;
+}
+
+/* checked mark aspect */
+.choose_delivery input[type="radio"]:not(:checked) + label:after,
+.choose_delivery input[type="radio"]:checked + label:after {
+  content:'';
+  position: absolute;
+  left:0; 
+  top: 1px;
+  width: 8px; 
+  height: 8px;
+  border: 3px solid #FFCF25;
+  background: #000;
+  border-radius: 10px;
+  transition: all .2s;
+}
+
+.choose_delivery label:hover:before {
+   border: 3px solid #FFCF25 !important;
+}
+
+.direction_inputs {
+  position: relative;
+}
+
+.direction_inputs .zakaz_direction_input,
+ .direction_inputs .zakaz_tel_input {
+  display: block;
+  width: 440px;
+  border: 1px solid #dedede;
+  border-bottom: 4px solid #dedede;
+  border-radius: 3px;
+  height: 43px;
+  margin-top: 15px;
+  padding-left: 10px;
+  outline: 0;
+  font-size: 14px;
+}
+
+
+.direction_inputs .zakaz_label.direction {
+  top: 16px;
+}
+
+.direction_inputs .zakaz_label.tel {
+  top: 73px;
+}
+
+.col-md-12.zakaz.second_page:after {
+  display: none;
+}
+
+.choose_delivery.pay_type {
+  margin-bottom: 70px;
+}
+
+.total_submit {
+  background-color: #DEDEDE;
+  padding: 15px;
+}
+
+.total_submit h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.total_submit_text,
+.for_payment {
+  font-size: 16px;
+  width: 100%;
+  float: left;
+}
+
+.total_submit_text p,
+.for_payment p {
+  float: left;
+  margin-bottom: 15px;
+}
+
+.total_submit_text .t_cost,
+ .for_payment .t_cost {
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  color: #469d00;
+}
+
+.for_payment:before {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #fff;
+  margin-bottom: 15px;
+  }
+
+
+
+.zakaz_total_submit {
+  width: 235px;
+  height: 43px;
+  display: block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #FFCF25;
+  border-bottom: 5px solid #E5B91D;
+  padding-top: 5px;
+  margin-top: 15px;
+  margin-left: 52px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.zakaz_total_submit:active {
+  transform: translate(0px,3px);
+  -webkit-transform: translate(0px,3px);
+  border-bottom: 1px solid #E5B91D;
+}
+
+.return_edit.total {
+  margin-bottom: 15px;
+}
+
+
+/*spasibo*/
+
+
+.col-md-12.order:before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #DCDCDC;
+    margin-top: -21px;
+    margin-left: 85px;
+    margin-bottom: 40px;
+}
+.result_order {
+   width: 530px;
+}
+.result_order .cost {
+  font-size: 16px;
+}
+
+.result_order .name {
+  text-decoration: none;
+  color: #2b2a29;
+}
+.order_details {
+  margin-bottom: 100px;
+}
+.order_details h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2b2a29;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.order_details p {
+  display: inline-block;
+}
+
+.order_details .order_summ {
+  font-size: 16px;
+  font-weight: bold;
+  color: #469d00;
+}
+
+.confirmation {
+  font-style: italic;
+  margin-top: 47px;
+  line-height: 1.6;
+}
+
+.order_number {
+  font-weight: bold;
+  font-style: normal;
+}
+.order_info {
+  display: none;
+}
+.order_mob {
+    display: none;
+  }
+
+
+/*  buy_form*/
+
+.buy_form {
+  width: 500px;
+  height: 430px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.buy_form h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.buy_form h1 p {
+  display: inline-block;
+  color: #469d00;
+}
+
+.buy_form_img {
+  display: inline-block;
+  width: 80px;
+  height: 70px;
+  margin-right: 35px;
+  margin-bottom: 25px;
+}
+
+.buy_form_purch {
+  margin-top: 25px;
+  margin-left: 5px;
+  position: relative;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.buy_form a {
+  display: inline-block;
+   vertical-align: top;
+}
+
+.buy_form_purch p {
+  display: inline-block;
+}
+
+.buy_form_purch .name {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #2f8dc6;
+  vertical-align: top;
+  width: 220px;
+  line-height: 1.5;
+}
+
+.buy_form_summ {
+  display: inline-block;
+   vertical-align: top;
+   float: right;
+   margin-right: 10px;
+   font-size: 14px;
+}
+.summ_title {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.summ_val {
+  font-size: 20px;
+  font-weight: bold;
+  color: #469d00;
+}
+
+.buy_form .spin {
+  position: absolute;
+  left: 25%;
+  bottom: 17px;
+  margin: 0;
+}
+
+.buy_form_submit {
+  width: 175px;
+  height: 40px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #FFCF25;
+  border-bottom: 5px solid #E5B91D;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.wait_for_call {
+ width: 130px;
+  height: 43px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #FFCF25;
+  border-bottom: 5px solid #E5B91D;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.buy_form_submit:active,
+.wait_for_call:active {
+  transform: translate(0px,3px);
+  -webkit-transform: translate(0px,3px);
+  border-bottom: 1px solid #E5B91D;
+}
+
+.continue_buying {
+  display: inline-block;
+  float: right;
+  margin-top: 17px;
+  margin-right: 55px;
+}
+
+.cont_link {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #2f8dc6;
+  border-bottom: 1px dotted;
+  vertical-align: top;
+}
+
+.buy_notice {
+  margin-top: 5px;
+  font-style: italic;
+  color: #7e7e7e;
+}
+
+.buy_form h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #2B2A29;
+}
+
+.without_reg {
+  color: #7e7e7e;
+}
+
+.buy_form_tel {
+  width: 300px;
+  border: 1px solid #dedede;
+  border-bottom: 4px solid #dedede;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  height: 43px;
+  margin-top: 10px;
+  padding-left: 10px;
+  outline: 0;
+  font-size: 14px;
+}
+
+.buy_notice_small {
+  margin-top: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: #7e7e7e;
+}
+

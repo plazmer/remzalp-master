@@ -290,6 +290,25 @@
     width: 360px;
 	}
 
+	/*oform_zakaza*/
+	.offered {
+	    padding-left: 150px;
+	}
+
+	.offered.total {
+		padding-left: 130px;
+	}
+
+	.zakaz_form.second_page h2 {
+		font-size: 22px;
+	}
+
+	.choose_delivery input[type="radio"] +label {
+     margin-left: 15px;
+	}
+	.second_page .zakaz_tovar {
+    width: 495px;
+	}
 }
 
 
@@ -587,9 +606,43 @@
 	.reg_form .reg_name_input, 
 	.reg_form .reg_tel_input {
     width: 70%;
+	}
+
+	.zakaz_form {
+		width: 60%;
+	}
+
+	.offered {
+    padding-left: 17px;
+    margin-top: 90px;
+    width: 80%;
+	}
+	.zakaz_form.second_page {
+			width: 100%;
+		}
+	.choose_delivery.pay_type {
+    margin-bottom: 0px;
+	}
+	.offered.total {
+    padding-left: 5px;
+    margin-top: 25px;
+  }
+  .total_submit {
+    max-width: 505px;
+    margin-bottom: 30px;
+    margin-left: 11px;
+	}
+	.zakaz_total_submit {
+		margin: 0 auto;
+	}
+	.return_edit.total {
+		margin-top: 15px;
+		margin-left: 35%;
+	}
+	.second_page .zakaz_tovar {
+    max-width: 495px;
+	}
 }
-
-
 
 
 
@@ -1459,9 +1512,155 @@
 		font-size: 12px;
 		width: 350px;
 	}
+
+	.col-md-12.zakaz:before {
+		display: none;
+	}
+	.zakaz.item-title {
+	  margin-top: 0px;
+	}
+	.zakaz_form {
+		width: 100%;
+    padding-left: 40px;
+    margin-top: 20px;
+	}
+
+	.zakaz_label {
+	  left: 55px;
+	}
+	.offered,
+	.next_zakaz,
+	.col-md-12.zakaz:after {
+		display: none;
+	}
+	.zakaz_label.fname {
+	  top: 135px;
+	}
+	.zakaz_label.city {
+	  top: 194px;
+	}
+
+	.zakaz_label.tel {
+	  top: 252px;
+	}
+
+	.zakaz_label.email {
+	  top: 310px;
+	}
+	.zakaz_form .zakaz_fname_input,
+	.zakaz_form .zakaz_city_input,
+	.zakaz_form .zakaz_tel_input,
+	.zakaz_form .zakaz_email_input {
+	  width: 280px;
+	}
+	
+	.zakaz_title_mob {
+		display: block;
+		font-size: 24px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+
+	.offered.total {
+		display: block;
+	}
+
+	.zakaz_title_mob {
+		margin-left: 40px;
+	}
+
+	.previuos_offer {
+    margin-top: 0px;
+    margin-left: 40px;
+	}
+	
+	.previuos_offer:after {
+		margin-bottom: 10px;
+	}
+
+
+	.direction_inputs .zakaz_label {
+    left: 15px;
+	} 
+
+	.direction_inputs .zakaz_tel_input,
+	.direction_inputs .zakaz_direction_input {
+		width: 78%;
+	}
+	
+	.total_submit {
+	  margin-left: 53px;
+	}
+	.zakaz_info {
+		width: 77%;
+	}
+	
+	.zakaz_title_mob,
+	.previuos_offer h2,
+	.zakaz_form.second_page h2 {
+		font-size: 18px;
+	}
+	.second_page .zakaz_tovar {
+    max-width: 434px;
+	}
+	.choose_delivery .brought {
+		display: block;
+	}
+	.choose_delivery .choose_delivery_title {
+		text-transform: none;
+		display: block;
+	}
+	.choose_delivery input[type="radio"]:not(:checked) +label {
+		margin-left: 0;
+	}
+	.choose_delivery p {
+		margin-bottom: 15px;
+	}
+	.offered.total {
+	  margin-top: 10px;
+	}
+	.col-md-12.order:before {
+		display: none;
+	}
+
+	.col-md-12.order {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.result_order {
+    width: 100%;
+	}
+	.confirmation {
+		margin-top: 25px;
+	}
+	.order_details {
+    margin-bottom: 40px;
+	}
+	.order_info {
+	  display: block;
+	  font-size: 16px;
+	  font-weight: bold;
+	  text-transform: uppercase;
+	  margin-top: 5px;
+	}
+	.order_pc {
+		display: none;
+	}
+	.order_mob {
+		display: block;
+	}
+
+/*buy_form*/
+
+	.buy_form {
+	    width: 450px;
+	}
+	.continue_buying {
+		margin-right: 10px;
+	}
+
 }
-
-
 
 
 
@@ -1549,6 +1748,42 @@
     height: 115px;
     font-size: 16px;
     margin-right: 30px;
+	}
+
+/*zakaz*/
+	.zakaz_info {
+	    width: 70%;
+	}
+
+	.offered.total {
+		padding: 0 15px 0 15px;
+		margin: 0;
+		width: 100%;
+	}
+	.total_submit {
+		margin-left: 0;
+		margin-bottom: -5px;
+		width: 100%;
+		max-width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+
+	.return_edit.total {
+		margin-left: 38%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.zakaz_info .cost {
+		font-size: 18px;
+	}
+	.for_payment:before {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.result_order .cost {
+		font-size: 16px;
 	}
 }
 
@@ -1652,6 +1887,46 @@
     height: 48px;
     font-size: 16px;
   }
+  .second_page .zakaz_tovar {
+    width: 400px;
+	}
+	/*buy_form*/
+
+	.buy_form {
+	    width: 420px;
+	}
+	.buy_form h1 {
+		font-size: 20px;
+	}
+	.summ_val {
+		font-size: 18px;
+	}
+
+	.summ_title {
+	    font-size: 13px;
+	    margin-bottom: 10px;
+	}
+	.buy_form_purch .name {
+		font-size: 13px;
+		width: 190px;
+	}
+
+	.buy_notice {
+		font-size: 12px;
+	}
+	.buy_form h2 {
+		font-size: 18px;
+	}
+	.buy_form_tel {
+    width: 180px;
+   }
+   .without_reg {
+   	font-size: 13px;
+   }
+   .buy_form_img {
+   	margin-right: 10px;
+   }
+
 }
 
 
@@ -1907,6 +2182,8 @@
 	.purch_link {
     width: 91%;
 }
+
+/*register*/
 .reg_form {
 		padding-left: 20px;
 	}
@@ -1939,6 +2216,141 @@
     top: 10px;
     left: 45px;
    }
+
+		/*zakaz*/
+   .zakaz_form h2 {
+    font-size: 16px;
+    margin-left: 5px;
+	}
+	.previuos_offer h2 {
+		margin-left: 5px;
+	}
+	.zakaz_1 {
+		width: 30px;
+		height: 30px;
+		font-size: 16px;
+		padding-left: 11px;
+	}
+
+	.zakaz_title_mob {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+
+	.zakaz_form {
+		margin-top: 10px;
+	}
+	.zakaz_label.fname {
+  top: 107px;
+	}
+	.zakaz_label.city {
+	  top: 165px;
+	}
+
+	.zakaz_label.tel {
+	  top: 223px;
+	}
+
+	.zakaz_label.email {
+	  top: 281px;
+	}
+
+
+	.zakaz_title_mob,
+	.previuos_offer {
+		margin-left: 20px;
+	}
+	.zakaz_form.second_page {
+		padding-left: 20px;
+	}
+	.total_submit {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+	}
+	.zakaz_title_mob, 
+	.previuos_offer h2, 
+	.zakaz_form.second_page h2 {
+    font-size: 16px;
+	}
+	.zakaz_1.second_page {
+    padding-left: 12px;
+	}
+	.total_submit h3 {
+		font-size: 16px;
+	}
+	.return_edit.total {
+		margin-left: 34%;
+	}
+
+	.buy_form {
+		width: auto;
+		padding-top: 5px;
+		padding-left: 0;
+	}
+	.buy_form_img {
+		width: 45px;
+		height: 45px;
+		margin-bottom: 5px;
+	}
+	.buy_form_summ {
+		float: none;
+		display: block;
+		margin-bottom: 15px;
+		
+	}
+	.summ_val {
+    font-size: 16px;
+	}
+	.summ_title {
+		margin-left: 7px;
+		font-size: 13px;
+	}
+	.buy_form_purch .name {
+    font-size: 13px;
+  	}
+	.buy_form_img {
+		margin-bottom: 5px;
+	}
+	.buy_form .spin {
+		left: 39%;
+	}
+	.buy_form_submit {
+		font-size: 14px;
+		width: 180px;
+		margin-left: 26%;
+	}
+	.continue_buying {
+		float: none;
+		margin-left: 27%;
+	}
+	.buy_form h1 {
+    font-size: 16px;
+}
+	.buy_form_purch {
+		padding-left: 35px;
+	}
+	.cont_link {
+		margin-left: 10px;
+	}
+	.buy_form h2 {
+    font-size: 16px;
+	}
+	.wait_for_call {
+		display: block;
+		font-size: 14px;
+		margin-left: 26%;
+		width: 180px;
+	}
+	.buy_form_tel {
+		margin-left: 26%;
+	}
+	.buy_notice_small {
+		display: none;
+	}
+	.buy_form {
+		height: auto;
+	}
 }
 
 
@@ -2029,6 +2441,65 @@
 	.purch .cost {
 	    left: 7%;
 	}
+
+/*zakaz*/
+	.return_edit.top {
+		display: none;
+	}
+	.zakaz_form.second_page .zakaz_img {
+		margin-right: 20px;
+	}
+	.previuos_offer:after {
+		margin-top: 10px;
+	}
+	.zakaz_2 {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 11px;
+  }
+  .zakaz_1.second_page {
+    padding-left: 11px;
+	}
+
+	.second_page .zakaz_tovar {
+	    width: 300px;
+	}
+
+	.order .zakaz_img {
+		margin-right: 15px;
+	}
+	.col-md-12.order {
+    padding-left: 40px;
+    padding-right: 30px;
+	}
+
+
+	.buy_form_purch {
+		padding-left: 5px;
+	}
+	.buy_form .spin {
+		left: 30%;
+	}
+	.buy_form_submit,
+	.continue_buying {
+		margin-left: 10px;
+	}
+	.buy_form_tel,
+	.wait_for_call {
+    margin-left: 8px;
+	}
+	.buy_form_img {
+		display: none;
+	}
+	.buy_form_purch .name {
+		margin-bottom: 16px;
+	}
+	.buy_form h2,
+	.without_reg {
+		padding-left: 8px;
+	}
+
 }
 
 
@@ -2159,6 +2630,52 @@
   .purch_img img {
   	width: 70px;
   }
+/*zakaz*/
+	.zakaz_label {
+	    left: 35px;
+	}
+  .zakaz_form {
+  	padding-left: 20px;
+  }
+  .zakaz_form.second_page .zakaz_img {
+    margin-right: 15px;
+	}
+	.second_page_hid {
+		display: none;
+	}
+	.return_edit.total {
+		margin-left: 29%;
+	}
+	.zakaz_link {
+		height: 85px;
+	}
+	.confirmation {
+		font-size: 12px;
+		line-height: 1.3;
+		margin-top: 20px;
+	}
+	.order_details h3,
+	.order_details .order_text   {
+		font-size: 16px;
+	}
+	.result_order .cost {
+		font-size: 14px;
+	}
+	.result_order .name {
+		font-size: 12px;
+	}
+	.result_order .zakaz_link {
+		height: 60px;
+	}
+	.order .zakaz_img {
+		margin-right: 10px;
+	}
+	.col-md-12.order {
+		padding-right: 20px;
+	}
+	.buy_form .spin {
+		left: 31%;
+	}
 }
 
 
@@ -2194,8 +2711,10 @@
 	.delivery_description.pay_descr {
     padding-left: 40px;
 	}
+.buy_form .spin {
+		left: 33%;
+	}
 
-	/*korzina_mob*/
 	
 }
 

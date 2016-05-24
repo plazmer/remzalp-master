@@ -13,8 +13,6 @@ $( window ).resize(function() {
 });
 
 
-
-
 // kartochka_tovara_mobile 
 if($( window ).width() < 694) {
      $('.price_bask').insertAfter('.links');
@@ -32,9 +30,28 @@ $( window ).resize(function() {
   if($( window ).width() > 693) {
      $('.links').insertAfter('.price_bask');
   }
-   
-
 });
+
+// oform_zakaza_mobile 
+if($( window ).width() < 694) {
+     $('.zakaz_title_mob.second_page').insertBefore('.previuos_offer');
+  }
+
+  if($( window ).width() > 693) {
+     $('.previuos_offer').insertBefore('.zakaz_title_mob.second_page');
+  }
+
+$( window ).resize(function() {
+  if($( window ).width() < 694) {
+     $('.zakaz_title_mob.second_page').insertBefore('.width');
+   }
+
+  if($( window ).width() > 693) {
+     $('.width').insertBefore('.zakaz_title_mob.second_page');
+  }
+});
+
+
 // katalog__mobile 
 if($( window ).width() < 768) {
      $('.detach').detach();
@@ -196,15 +213,40 @@ $('#zakaz_city').blur(function() {
 
 // color placeholder-zakaz_tel (zakaz page)
 $('#zakaz_tel').focus(function() {
-    $('#rzakaz_tel_label').hide();
+    $('#zakaz_tel_label').hide();
 });
 
 $('#zakaz_tel').blur(function() {
     if ($(this).val().trim() === '') {
-        $('#rzakaz_tel_label').show();
+        $('#zakaz_tel_label').show();
     }
     
 });
+// color placeholder-zakaz_tel (zakaz page)
+$('#zakaz_email').focus(function() {
+    $('#zakaz_label_email').hide();
+});
+
+$('#zakaz_email').blur(function() {
+    if ($(this).val().trim() === '') {
+        $('#zakaz_label_email').show();
+    }
+    
+});
+
+// color placeholder-zakaz_tel (zakaz page2)
+$('#zakaz_direction').focus(function() {
+    $('#zakaz_direction_label').hide();
+});
+
+$('#zakaz_direction').blur(function() {
+    if ($(this).val().trim() === '') {
+        $('#zakaz_direction_label').show();
+    }
+    
+});
+
+
 
 
 $(document).ready(function() {
