@@ -1834,7 +1834,7 @@ img {
 
 .breadcrumbs .currentCrumb {
   text-decoration: underline;
-  color: #747474;
+  color: #2b2a29;
   padding-left: 5px;
 }
 
@@ -2053,7 +2053,7 @@ img {
 }
 
 .tabs__content_2.oplata {
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .delivery_table .cash_pay .delivery_pic {
  background: url(../img/nal.png) no-repeat;
@@ -2414,7 +2414,6 @@ margin-top: 10px;
   font-weight: bold;
   background-color: #FFCF25;
   border-bottom: 4px solid #E5B91D;
-  padding-top: 5px;
   margin-top: 17px;
 }
 
@@ -2424,10 +2423,17 @@ margin-top: 10px;
   border-bottom: 1px solid #E5B91D;
 }
 .buy_but a {
+  display: block;
+  width: 100%;
+  height: 100%;
   color: #2b2a29;
-  padding-left: 35px;
+  padding-left: 40px;
+  padding-top: 9px;
 }
-
+.buy_but .small_butt {
+  padding-left: 36px;
+  padding-top: 5px;
+}
 .mobile_crumb {
   display: none;
 }
@@ -2480,7 +2486,7 @@ margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.stat p {
+.stat .stat_text {
   font-size: 13px;
   color: #7d7c77;
   margin-top: 5px;
@@ -2670,7 +2676,12 @@ margin-top: 10px;
   font-size: 16px;
   color: #939393;
 }
-
+.uslugu__item .u_input.message::-webkit-input-placeholder {
+  color:#939393;
+}
+.uslugu__item .u_input.message::-moz-placeholder {
+  color:#939393;
+}
 
 .u_submit {
   position: absolute;
@@ -2818,6 +2829,7 @@ label:hover:before {
   cursor: pointer;
   border-radius: 0 3px 3px 0;
   font-size: 14px;
+  font-weight: bold;
   background-color: #FFCF25;
   border-bottom: 3px solid #E5B91D;
   margin-left: -7px;
@@ -3065,6 +3077,8 @@ label:hover:before {
 
 .stock {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 105px;
   height: 44px;
   background-repeat: no-repeat;
@@ -3073,6 +3087,11 @@ label:hover:before {
   font-size: 24px;
   font-weight: bold;
   padding-top: 2px;
+  z-index: 2;
+}
+
+.kartochka .tabs__content a {
+  display: block;
 }
 
 .katalog .kartochka_title {
@@ -3144,8 +3163,7 @@ label:hover:before {
   height: 38px;
   font-size: 20px;
   text-transform: uppercase;
-  padding-left: 8px;
-  padding-top: 9px;
+  padding: 0px;
   margin-top: 8px;
   margin-bottom: 10px;
   background-position: 7% 75%;
@@ -3585,12 +3603,16 @@ border-left: 1px solid #DCDCDC;
   padding-top: 15px;
 }
 
-
+.buy_but .plitka_but {
+  padding-left: 37px;
+  padding-top: 7px;
+}
  /*============= katalog setka=============*/
 
  .katalog.setka {
   height: 200px;
   position: relative;
+  border-top: 1px solid #dcdcdc;
  }
 
  .katalog.setka .tovar_img {
@@ -3608,20 +3630,7 @@ border-left: 1px solid #DCDCDC;
   box-shadow: 0px -1px 3px 2px rgba(0,0,0,0.3)
  }
 
- .katalog.setka:first-child:before {
-  content: "";
-  display: block;
-  height: 1px;
-  background: #DCDCDC;
-}
 
- .katalog.setka:after {
-  content: "";
-  display: block;
-  height: 1px;
-  background: #DCDCDC;
-  margin-top: -3px;
-}
 
  .katalog.setka .katalog__img {
    margin-left: 23px;
@@ -3641,7 +3650,7 @@ border-left: 1px solid #DCDCDC;
 }
 
  .descr_setka .setka_descr_title {
-  margin-top: 20px;
+  margin-top: 10px;
   line-height: 1.6;
  }
 
@@ -3666,15 +3675,17 @@ border-left: 1px solid #DCDCDC;
   width: 105px;
   font-size: 14px;
   background-position: 4% 75%;
-  padding-top: 7px;
-  margin-bottom: 9px;
+  margin-bottom: 30px;
 }
 
 .buy_but.setka a {
   padding-left: 28px;
+  padding-top: 7px;
 }
 
-
+.our-tovar__link.popular.katalog.setka p {
+  margin-top: 15px;
+}
 /*==============map==============*/
 
 .map {
@@ -4526,3 +4537,70 @@ border-left: 1px solid #DCDCDC;
   color: #7e7e7e;
 }
 
+/*
+.basket_mobile*/
+
+.basket_mobile_form .val,
+.basket_mobile_form p {
+  display: inline-block;
+  padding: 0;
+}
+
+.basket_mobile_form .val {
+  background-color: #000;
+  color: #fff;
+  padding: 7px 10px;
+}
+
+.basket_mobile_form {
+  padding-top: 20px;
+  margin-bottom: 90px;
+  height: 100%;
+}
+.basket_mobile_form h3 {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.basket_mobile_form h3:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #ffcf25;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.basket_mobile_form .top_val {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 242px;
+}
+
+
+.basket_mobile_form:before {
+  content: "";
+  position: absolute;
+  top: 68px;
+  left: 0;
+  display: block;
+  width: 98%;
+  height: 1px;
+  background: #DCDCDC;
+  z-index: -1;
+ 
+}
+
+.basket_mobile_form  .purch .name {
+  width: 100%;
+}
+.basket_mobile_form .spin{
+margin-left: 40%;
+}
+.basket_mobile_form .this_total {
+margin-left: 24%;
+}

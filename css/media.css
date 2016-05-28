@@ -309,6 +309,17 @@
 	.second_page .zakaz_tovar {
     width: 495px;
 	}
+
+/* .basket_mobile*/
+	.basket_mobile_form .purch .name {
+    width: 70%;
+	}
+	.basket_mobile_form .spin {
+    margin-left: 13%;
+	}
+	.basket_mobile_form .this_total {
+    margin-left: 14%;
+	}
 }
 
 
@@ -642,7 +653,18 @@
 	.second_page .zakaz_tovar {
     max-width: 495px;
 	}
+
+	.basket_mobile_form  .purch_link {
+  	max-width: 100%;
+	}
+	.basket_mobile_form .spin {
+    margin-left: 3%;
+	}
+	.basket_mobile_form .this_total {
+    margin-left: 20%;
+	}
 }
+
 
 
 
@@ -703,7 +725,12 @@
 	.left-menu.full.kart_none {
 		display: none;
 	}
-
+	.basket_mobile_form .purch_link {
+	    max-width: 58%;
+	}
+	.basket_mobile_form .this_total {
+    margin-left: 6%;
+	}
 }
 
 
@@ -1404,26 +1431,7 @@
 		margin-bottom: 30px;
 	}
 
-	.basket_mobile_form .val,
-	.basket_mobile_form p {
-	  display: inline-block;
-	  padding: 0;
-	}
-
-	.basket_mobile_form .val {
-	  background-color: #000;
-	  color: #fff;
-	  padding: 7px 10px;
-	}
-
-	.basket_mobile_form {
-		padding-top: 20px;
-		margin-bottom: 20px;
-		height: 100%;
-	}
-	.basket_mobile_form h3 {
-		display: none;
-	}
+	/*korzina*/
 	.top_val {
 		margin-left: 28%;
 	}
@@ -1460,7 +1468,25 @@
   }
   .basket_submit {
   	margin-bottom: 25px;
+	}
+  .basket_mobile_form h3,
+  .basket_mobile_form:before {
+  	display: none;
+  	}
+  	.basket_mobile_form .top_val {
+  		position: static;
+  	}
+  .basket_mobile_form .purch_link {
+      max-width: 340px;
   }
+  .basket_mobile_form .purch .name {
+    width: 60%;
+	}
+	.basket_mobile_form .spin {
+	    margin-left: 72%;
+	    margin-right: 13%;
+	
+ }
 
 		/*registration*/
   .col-md-12.registration:before {
@@ -1730,20 +1756,20 @@
 	}
 
 /*korzina_mob*/
-	.top_val {
+	.basket_mobile_form .top_val {
     margin-left: 20%;
 	}
-	.spin {
+	.basket_mobile_form .spin {
     margin-left: 56%;
   }
-  .continue {
+  .basket_mobile_form .continue {
     width: 193px;
     height: 45px;
     font-size: 14px;
     padding-top: 13px;
     padding-left: 8px;
 	}
-	.basket_submit {
+	.basket_mobile_form .basket_submit {
     width: 230px;
     height: 115px;
     font-size: 16px;
@@ -1868,21 +1894,21 @@
 	}
 
 	/*korzina_mob*/
-	.continue {
+	.basket_mobile_form .continue {
     margin-left: 13px;
 	}
 
-	.spin {
+	.basket_mobile_form .spin {
     margin-left: 50%;
     margin-right: 4%;
 	}	
-	.top_val {
+	.basket_mobile_form .top_val {
     margin-left: 7%;
 	}
-	.purch_img {
+	.basket_mobile_form .purch_img {
     padding-right: 12px;
 	}
-	.button_confirm {
+	.basket_mobile_form .button_confirm {
     width: 180px;
     height: 48px;
     font-size: 16px;
@@ -2127,13 +2153,13 @@
 	}
 
 		/*korzina_mob*/
-		.basket_submit {
+	.basket_mobile_form	.basket_submit {
 			padding-top: 10px;
 		}
-		.basket_submit .total {
+	.basket_mobile_form	.basket_submit .total {
     font-size: 18px;
 	}
-		.basket_submit {
+	.basket_mobile_form	.basket_submit {
     width: 205px;
     height: 105px;
     margin: 0;
@@ -2142,7 +2168,7 @@
     left: 50%;
     margin-left: -102px;
 	}
-	.continue {
+	.basket_mobile_form .continue {
     width: 193px;
     height: 45px;
     font-size: 14px;
@@ -2154,32 +2180,32 @@
     left: 50%;
     margin-left: -97px;
 }
-	.basket_mobile_form {
+	.basket_mobile_form  {
    	margin-bottom: 190px;
   }
-   .purch {
+  .basket_mobile_form .purch {
     margin-left: 15px;
 	}
-	.circle {
+	 .basket_mobile_form .circle {
    	left: 5%;
 	}
-	.purch .cost {
+	 .basket_mobile_form .purch .cost {
     left: 10%;
 	}
-	.summ {
+	.basket_mobile_form .summ {
 		margin-right: 0;
 	}
-	.top_val {
+	.basket_mobile_form .top_val {
     margin-left: 5%;
 	}
-	.spin {
+	.basket_mobile_form .spin {
     margin-left: 45%;
     margin-right: 3%;
 	}
-	.purch .name {
+	.basket_mobile_form .purch .name {
 		font-size: 13px;
 	}
-	.purch_link {
+	.basket_mobile_form .purch_link {
     width: 91%;
 }
 
@@ -2422,7 +2448,7 @@
 	.basket_mobile_form p {
 		font-size: 12px;
 	}
-	.top_val:after {
+	.basket_mobile_form .top_val:after {
 	  content: "";
     display: block;
     height: 1px;
@@ -2430,15 +2456,15 @@
     margin-top: 15px;
     margin-left: -20px;
  	}
-	 .purch_link {
+	.basket_mobile_form .purch_link {
 	 	margin-left: 15%;
 	 	width: 82%;
 	 }
- .spin {
+ .basket_mobile_form .spin {
     margin-left: 34%;
     margin-right: 0%;
 	}
-	.purch .cost {
+	.basket_mobile_form .purch .cost {
 	    left: 7%;
 	}
 
@@ -2612,22 +2638,23 @@
 
  /*korzina_mob*/
 
-	.this_total .tot_cost {
+	.basket_mobile_form	.this_total .tot_cost {
 	    font-size: 18px;
 	}
-	.purch .cost {
+	.basket_mobile_form	.purch .cost {
 		font-size: 18px;
 	}
-	.spin {
+	.basket_mobile_form	.spin {
     margin-left: 30%;
   }
-  .purch_link {
+  .basket_mobile_form	.purch_link {
 	 	width: 80%;
 	 }
-	 .all_purchases, .summ {
+	 .basket_mobile_form .all_purchases, 
+	.basket_mobile_form .summ {
     margin-right: 10px;
   }
-  .purch_img img {
+  .basket_mobile_form .purch_img img {
   	width: 70px;
   }
 /*zakaz*/

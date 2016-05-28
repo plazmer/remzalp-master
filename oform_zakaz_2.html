@@ -261,11 +261,11 @@
                   </div> 
                   <div class="choose_delivery">
                     <p class="choose_delivery_title">Доставка</p>
-                    <p><input name="delivery" type="radio" id="courier" value="courier" >
+                    <p><input name="delivery" type="radio" id="courier" value="courier">
                      <label for="courier">Курьером</label></p>
                      <p><input name="delivery" type="radio" id="post" value="post" checked>
                        <label for="post">Почтой России</label></p>
-                       <p class="brought"><input name="delivery" type="radio" id="brought" value="brought" >
+                       <p class="brought" ><input name="delivery" type="radio" id="brought" value="brought" >
                          <label for="brought">Самовывоз</label></p>
                        </div>
                        <div class="direction_inputs"> 
@@ -579,6 +579,8 @@
 <script src="js/simpleMobileMenu.js"></script>
 <script type="text/javascript">
   $(document).ready(function() {
+
+
    jQuery(function($){
      $("#zakaz_tel").mask("+7(947) 222-2222",{autoclear: false});
    });
