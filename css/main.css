@@ -1113,6 +1113,7 @@ ul.bxslider {
   display: inline-block;
   white-space: normal;
   width: 60%;
+  min-width: 115px;
   color: #2f8dc6;
   text-decoration: underline;
   font-size: 14px;

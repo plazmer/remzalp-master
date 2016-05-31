@@ -1483,7 +1483,7 @@
     width: 60%;
 	}
 	.basket_mobile_form .spin {
-	    margin-left: 72%;
+	    margin-left: 220px;
 	    margin-right: 13%;
 	
  }
@@ -1899,7 +1899,7 @@
 	}
 
 	.basket_mobile_form .spin {
-    margin-left: 50%;
+    margin-left: 160px;
     margin-right: 4%;
 	}	
 	.basket_mobile_form .top_val {
@@ -2199,7 +2199,7 @@
     margin-left: 5%;
 	}
 	.basket_mobile_form .spin {
-    margin-left: 45%;
+    margin-left: 160px;
     margin-right: 3%;
 	}
 	.basket_mobile_form .purch .name {
@@ -2461,7 +2461,7 @@
 	 	width: 82%;
 	 }
  .basket_mobile_form .spin {
-    margin-left: 34%;
+    margin-left: 120px;
     margin-right: 0%;
 	}
 	.basket_mobile_form .purch .cost {
@@ -2645,7 +2645,7 @@
 		font-size: 18px;
 	}
 	.basket_mobile_form	.spin {
-    margin-left: 30%;
+    margin-left: 100px;
   }
   .basket_mobile_form	.purch_link {
 	 	width: 80%;
