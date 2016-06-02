@@ -2487,7 +2487,7 @@ margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.stat .stat_text {
+.stat p {
   font-size: 13px;
   color: #7d7c77;
   margin-top: 5px;
@@ -3568,7 +3568,7 @@ border-left: 1px solid #DCDCDC;
  }
 
  .mobile_filter {
-  width: 300px;
+  width: 280px;
   }
 
  .modal.filter li a > p {
@@ -4605,3 +4605,4 @@ margin-left: 40%;
 .basket_mobile_form .this_total {
 margin-left: 24%;
 }
+
